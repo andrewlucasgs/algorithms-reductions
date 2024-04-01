@@ -1,0 +1,674 @@
+[
+    {
+      "From": "CNF-SAT",
+      "To": "k-OV"
+    },
+    {
+      "From": "OV",
+      "To": "Diameter 2 vs 3"
+    },
+    {
+      "From": "OV",
+      "To": "Edit Distance"
+    },
+    {
+      "From": "CNF-SAT",
+      "To": "Frechet Distance"
+    },
+    {
+      "From": "UOV",
+      "To": "Dynamic Time Warping"
+    },
+    {
+      "From": "UOV",
+      "To": "Longest Common Subsequence"
+    },
+    {
+      "From": "OV",
+      "To": "Partial Match"
+    },
+    {
+      "From": "Partial Match",
+      "To": "OV"
+    },
+    {
+      "From": "3SUM",
+      "To": "3SUM'"
+    },
+    {
+      "From": "3SUM'",
+      "To": "3SUM"
+    },
+    {
+      "From": "3SUM'",
+      "To": "GeomBase"
+    },
+    {
+      "From": "GeomBase",
+      "To": "3SUM'"
+    },
+    {
+      "From": "3SUM",
+      "To": "3 Points on Line"
+    },
+    {
+      "From": "3 Points on Line",
+      "To": "Point on 3 Lines"
+    },
+    {
+      "From": "Point on 3 Lines",
+      "To": "3 Points on Line"
+    },
+    {
+      "From": "GeomBase",
+      "To": "Separator1"
+    },
+    {
+      "From": "GeomBase",
+      "To": "Separator2"
+    },
+    {
+      "From": "GeomBase",
+      "To": "Strips Cover Box"
+    },
+    {
+      "From": "Strips Cover Box",
+      "To": "Triangles Cover Triangle"
+    },
+    {
+      "From": "Triangles Cover Triangle",
+      "To": "Hole in Union"
+    },
+    {
+      "From": "Hole in Union",
+      "To": "Triangles Cover Triangle"
+    },
+    {
+      "From": "Triangles Cover Triangle",
+      "To": "Triangle Measure"
+    },
+    {
+      "From": "Strips Cover Box",
+      "To": "Point Covering"
+    },
+    {
+      "From": "GeomBase",
+      "To": "Visibility Between Segments"
+    },
+    {
+      "From": "GeomBase",
+      "To": "Visibility From Infinity"
+    },
+    {
+      "From": "Triangles Cover Triangle",
+      "To": "Visible Triangle"
+    },
+    {
+      "From": "Visible Triangle",
+      "To": "Triangles Cover Triangle"
+    },
+    {
+      "From": "GeomBase",
+      "To": "Planar Motion Planning"
+    },
+    {
+      "From": "Triangles Cover Triangle",
+      "To": "3D Motion Planning"
+    },
+    {
+      "From": "3SUM'",
+      "To": "Static Dihedral Rotation Queries"
+    },
+    {
+      "From": "3SUM",
+      "To": "Local Alignment"
+    },
+    {
+      "From": "CNF-SAT",
+      "To": "Local Alignment"
+    },
+    {
+      "From": "CNF-SAT",
+      "To": "Longest Common Substring with don't cares"
+    },
+    {
+      "From": "CNF-SAT",
+      "To": "Multiple Local Alignment"
+    },
+    {
+      "From": "Directed, Weighted APSP",
+      "To": "Negative Triangle Detection"
+    },
+    {
+      "From": "CFG Parsing",
+      "To": "Combinatorial BMM"
+    },
+    {
+      "From": "Combinatorial BMM",
+      "To": "CFG Parsing"
+    },
+    {
+      "From": "Negative Triangle Detection",
+      "To": "Matrix Product Verification"
+    },
+    {
+      "From": "Matrix Product",
+      "To": "Negative Triangle Detection"
+    },
+    {
+      "From": "Negative Triangle Search",
+      "To": "Negative Triangle Detection"
+    },
+    {
+      "From": "Negative Triangle Listing",
+      "To": "Negative Triangle Detection"
+    },
+    {
+      "From": "Matrix Product",
+      "To": "Negative Triangle Detection"
+    },
+    {
+      "From": "Matrix Product",
+      "To": "Negative Triangle Detection"
+    },
+    {
+      "From": "Maximum Subarray",
+      "To": "Distance Product"
+    },
+    {
+      "From": "Matrix Product",
+      "To": "Negative Triangle Detection"
+    },
+    {
+      "From": "Minimum Witness Finding",
+      "To": "Negative Triangle Detection"
+    },
+    {
+      "From": "All Pairs Minimum Witness (APMW)",
+      "To": "Negative Triangle Detection"
+    },
+    {
+      "From": "Undirected, Weighted APSP",
+      "To": "Directed, Weighted APSP"
+    },
+    {
+      "From": "Directed, Weighted APSP",
+      "To": "Undirected, Weighted APSP"
+    },
+    {
+      "From": "Metricity",
+      "To": "Negative Triangle Detection"
+    },
+    {
+      "From": "Negative Triangle Detection",
+      "To": "Metricity"
+    },
+    {
+      "From": "Negative Triangle Detection",
+      "To": "Shortest Cycle"
+    },
+    {
+      "From": "Negative Triangle Detection",
+      "To": "Maximum Subarray"
+    },
+    {
+      "From": "Maximum Subarray",
+      "To": "Negative Triangle Detection"
+    },
+    {
+      "From": "Minimum Weight Triangle",
+      "To": "Second Shortest Simple Path"
+    },
+    {
+      "From": "Distance Product",
+      "To": "Second Shortest Simple Path"
+    },
+    {
+      "From": "Directed, Weighted APSP",
+      "To": "Second Shortest Simple Path"
+    },
+    {
+      "From": "Directed, Weighted APSP",
+      "To": "Replacement Paths Problem (RPP)"
+    },
+    {
+      "From": "Combinatorial Triangle Detection",
+      "To": "Independent Set Queries"
+    },
+    {
+      "From": "Combinatorial BMM",
+      "To": "Independent Set Queries"
+    },
+    {
+      "From": "Negative Triangle Detection",
+      "To": "Price Query"
+    },
+    {
+      "From": "Nondecreasing Triangle",
+      "To": "Triangle in Unweighted Graph"
+    },
+    {
+      "From": "$(\\min, \\leq)$ Product",
+      "To": "Triangle in Unweighted Graph"
+    },
+    {
+      "From": "All-Integers 3SUM",
+      "To": "3SUM"
+    },
+    {
+      "From": "3SUM",
+      "To": "All-Integers 3SUM"
+    },
+    {
+      "From": "Directed Radius",
+      "To": "Directed, Weighted APSP"
+    },
+    {
+      "From": "Undirected Radius",
+      "To": "Undirected, Weighted APSP"
+    },
+    {
+      "From": "Directed Median",
+      "To": "Directed, Weighted APSP"
+    },
+    {
+      "From": "Undirected Median",
+      "To": "Undirected, Weighted APSP"
+    },
+    {
+      "From": "Betweenness Centrality (BC)",
+      "To": "Directed, Weighted APSP"
+    },
+    {
+      "From": "Betweenness Centrality (BC)",
+      "To": "Undirected, Weighted APSP"
+    },
+    {
+      "From": "Reach Centrality",
+      "To": "Diameter"
+    },
+    {
+      "From": "CNF-SAT",
+      "To": "Approximate Diameter"
+    },
+    {
+      "From": "Negative Triangle Detection",
+      "To": "Betweenness Centrality (BC)"
+    },
+    {
+      "From": "Negative Triangle Detection",
+      "To": "Radius"
+    },
+    {
+      "From": "Negative Triangle Detection",
+      "To": "Median"
+    },
+    {
+      "From": "Negative Triangle Detection",
+      "To": "All-Nodes Median Parity"
+    },
+    {
+      "From": "Directed, Weighted APSP",
+      "To": "All-Nodes Median Parity"
+    },
+    {
+      "From": "Undirected, Weighted APSP",
+      "To": "All-Nodes Median Parity"
+    },
+    {
+      "From": "Diameter",
+      "To": "Reach Centrality"
+    },
+    {
+      "From": "Reach Centrality",
+      "To": "Diameter"
+    },
+    {
+      "From": "Diameter",
+      "To": "Positive Betweenness Centrality"
+    },
+    {
+      "From": "Positive Betweenness Centrality",
+      "To": "Diameter"
+    },
+    {
+      "From": "Reach Centrality",
+      "To": "Positive Betweenness Centrality"
+    },
+    {
+      "From": "Negative Triangle Detection",
+      "To": "All-Nodes Positive Betweenness Centrality"
+    },
+    {
+      "From": "Directed, Weighted APSP",
+      "To": "Directed All-Nodes Positive Betweenness Centrality"
+    },
+    {
+      "From": "Undirected, Weighted APSP",
+      "To": "Undirected All-Nodes Positive Betweenness Centrality"
+    },
+    {
+      "From": "Directed, Weighted APSP",
+      "To": "Directed All-Nodes Reach Centrality"
+    },
+    {
+      "From": "Undirected, Weighted APSP",
+      "To": "Undirected All-Nodes Reach Centrality"
+    },
+    {
+      "From": "Diameter",
+      "To": "Approximate Betweenness Centrality"
+    },
+    {
+      "From": "Approximate Betweenness Centrality",
+      "To": "Diameter"
+    },
+    {
+      "From": "Betweenness Centrality (BC)",
+      "To": "Diameter"
+    },
+    {
+      "From": "CNF-SAT",
+      "To": "Positive Betweenness Centrality"
+    },
+    {
+      "From": "CNF-SAT",
+      "To": "Approximate Betweenness Centrality"
+    },
+    {
+      "From": "CNF-SAT",
+      "To": "Approximate Reach Centrality"
+    },
+    {
+      "From": "CNF-SAT",
+      "To": "Approximate Reach Centrality"
+    },
+    {
+      "From": "Min-Weight k-Clique",
+      "To": "Min-Weight k-Cycle"
+    },
+    {
+      "From": "Min-Weight k-Cycle",
+      "To": "Undirected Wiener Index"
+    },
+    {
+      "From": "CNF-SAT",
+      "To": "#SSR"
+    },
+    {
+      "From": "CNF-SAT",
+      "To": "SC2"
+    },
+    {
+      "From": "CNF-SAT",
+      "To": "Dynamic MaxSCC"
+    },
+    {
+      "From": "CNF-SAT",
+      "To": "Dynamic Connected Subgraph"
+    },
+    {
+      "From": "CNF-SAT",
+      "To": "Dynamic 4/3-Diameter"
+    },
+    {
+      "From": "CNF-SAT",
+      "To": "Dynamic ST-Reach"
+    },
+    {
+      "From": "Triangle Detection",
+      "To": "Dynamic ST-Reach"
+    },
+    {
+      "From": "Triangle Detection",
+      "To": "Dynamic Strong Connectivity"
+    },
+    {
+      "From": "Triangle Detection",
+      "To": "Dynamic Bipartite Maximum-Weight Matching"
+    },
+    {
+      "From": "Directed, Weighted APSP",
+      "To": "Dynamic $st$-Shortest Path"
+    },
+    {
+      "From": "Directed, Weighted APSP",
+      "To": "Dynamic Bipartite Maximum-Weight Matching"
+    },
+    {
+      "From": "MAX-CNF-SAT",
+      "To": "st-Maximum Flow"
+    },
+    {
+      "From": "MAX-CNF-SAT",
+      "To": "All-Pairs Maximum Flow"
+    },
+    {
+      "From": "MAX-CNF-SAT",
+      "To": "All-Pairs Maximum Flow"
+    },
+    {
+      "From": "MAX-CNF-SAT",
+      "To": "st-Maximum Flow"
+    },
+    {
+      "From": "MAX-CNF-SAT",
+      "To": "Maximum Local Edge Connectivity"
+    },
+    {
+      "From": "OuMv",
+      "To": "Bipartite Graph MCM"
+    },
+    {
+      "From": "CNF-SAT",
+      "To": "dynamic st-Maximum Flow"
+    },
+    {
+      "From": "OuMv",
+      "To": "dynamic st-Maximum Flow"
+    },
+    {
+      "From": "Triangle Collection*",
+      "To": "dynamic 4/3-Diameter"
+    },
+    {
+      "From": "Triangle Collection*",
+      "To": "dynamic 4/3-Diameter"
+    },
+    {
+      "From": "Triangle Collection*",
+      "To": "dynamic 4/3-Diameter"
+    },
+    {
+      "From": "Combinatorial BMM",
+      "To": "2-sensitive incremental st-reach"
+    },
+    {
+      "From": "Combinatorial BMM",
+      "To": "1-sensitive incremental ss-reach"
+    },
+    {
+      "From": "Combinatorial BMM",
+      "To": "ap-reach"
+    },
+    {
+      "From": "Combinatorial BMM",
+      "To": "2-sensitive (7/5)-approximate st-shortest paths"
+    },
+    {
+      "From": "Combinatorial BMM",
+      "To": "1-sensitive (3/2)-approximate ss-shortest paths"
+    },
+    {
+      "From": "Combinatorial BMM",
+      "To": "(5/3)-approximate ap-shortest paths"
+    },
+    {
+      "From": "Combinatorial BMM",
+      "To": "1-sensitive (4/3)-approximate decremental diameter"
+    },
+    {
+      "From": "Combinatorial BMM",
+      "To": "1-sensitive (4/3)-approximate decremental eccentricity"
+    },
+    {
+      "From": "Combinatorial BMM",
+      "To": "1-sensitive decremental st-shortest paths"
+    },
+    {
+      "From": "Replacement Paths Problem (RPP)",
+      "To": "1-sensitive decremental st-shortest paths"
+    },
+    {
+      "From": "Directed, Weighted APSP",
+      "To": "2-sensitive decremental st-shortest paths"
+    },
+    {
+      "From": "Directed, Weighted APSP",
+      "To": "1-sensitive decremental diameter"
+    },
+    {
+      "From": "CNF-SAT",
+      "To": "sensitive incremental #SSR"
+    },
+    {
+      "From": "CNF-SAT",
+      "To": "constant sensitivity (4/3)-approximate incremental diameter"
+    },
+    {
+      "From": "CNF-SAT",
+      "To": "sensitive incremental ST-Reach"
+    },
+    {
+      "From": "OV",
+      "To": "Bichromatic Hamming Close Pair"
+    },
+    {
+      "From": "k-Clique",
+      "To": "CFG Recognition"
+    },
+    {
+      "From": "k-Clique",
+      "To": "RNA Folding"
+    },
+    {
+      "From": "k-Clique",
+      "To": "CFG Recognition"
+    },
+    {
+      "From": "k-Clique",
+      "To": "RNA Folding"
+    },
+    {
+      "From": "k-SAT",
+      "To": "Subset Sum"
+    },
+    {
+      "From": "OV",
+      "To": "Subtree Isomorphism"
+    },
+    {
+      "From": "OV",
+      "To": "Largest Common Subtree"
+    },
+    {
+      "From": "Combinatorial Triangle Detection",
+      "To": "Disjunctive coBüchi Objectives"
+    },
+    {
+      "From": "OV",
+      "To": "Generalized Büchi Games"
+    },
+    {
+      "From": "Combinatorial Triangle Detection",
+      "To": "Disjunctive Reachability Queries in MDPs"
+    },
+    {
+      "From": "OV",
+      "To": "Disjunctive Reachability Queries in MDPs"
+    },
+    {
+      "From": "Combinatorial Triangle Detection",
+      "To": "Disjunctive Queries of Safety in Graphs"
+    },
+    {
+      "From": "OV",
+      "To": "Disjunctive Queries of Safety in Graphs"
+    },
+    {
+      "From": "Maximum Inner Product Search",
+      "To": "Boolean d-Attribute Stable Matching"
+    },
+    {
+      "From": "Maximum Inner Product Search",
+      "To": "Stable Matching Verification"
+    },
+    {
+      "From": "Maximum Inner Product Search",
+      "To": "Stable Pair Checking"
+    },
+    {
+      "From": "Maximum Inner Product Search",
+      "To": "Stable Pair Checking"
+    },
+    {
+      "From": "Maximum Inner Product Search",
+      "To": "Stable Pair Checking"
+    },
+    {
+      "From": "Bichromatic Hamming Close Pair",
+      "To": "Approximate Hard-Margin SVM"
+    },
+    {
+      "From": "Max-Weight k-Clique",
+      "To": "Max-Weight Rectangle"
+    },
+    {
+      "From": "Negative Triangle Detection",
+      "To": "2D Maximum Subarray"
+    },
+    {
+      "From": "Undirected, Weighted APSP",
+      "To": "2D Maximum Subarray"
+    },
+    {
+      "From": "Max-Weight k-Clique",
+      "To": "Maximum Subarray"
+    },
+    {
+      "From": "Max-Weight k-Clique",
+      "To": "Maximum Square Subarray"
+    },
+    {
+      "From": "Max-Weight k-Clique",
+      "To": "Weighted Depth"
+    },
+    {
+      "From": "OV",
+      "To": "k-OV"
+    },
+    {
+      "From": "k-OV",
+      "To": "Diameter k vs 2k-1"
+    },
+    {
+      "From": "k-Clique",
+      "To": "Max-Weight k-Clique"
+    },
+    {
+      "From": "k-Clique",
+      "To": "Min-Weight k-Clique"
+    },
+    {
+      "From": "CNF-SAT",
+      "To": "Max-CNF-SAT"
+    },
+    {
+      "From": "Combinatorial Triangle Detection",
+      "To": "Combinatorial BMM"
+    },
+    {
+      "From": "Combinatorial BMM",
+      "To": "Combinatorial Triangle Detection"
+    }
+  ]
