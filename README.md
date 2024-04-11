@@ -42,507 +42,502 @@
 
 
 ### Table of all new edges impact by the size of the Largest SCC 
-
 | Size of the Largest SCC | From | To | Graph |
 | --- | --- | --- | --- |
-| 12 | Reach Centrality | k-Clique | <a href="impactful_edges_by_size/12 = Reach Centrality -> k-Clique.png">Graph</a> |
-| 12 | Diameter | k-Clique | ![alt text](<impactful_edges_by_size/12 = Diameter -\> k-Clique.png>) |
-| 12 | Positive Betweenness Centrality | k-Clique | ![alt text](<impactful_edges_by_size/12 = Positive Betweenness Centrality -\> k-Clique.png>) |
-| 12 | Approximate Betweenness Centrality | k-Clique | ![alt text](<impactful_edges_by_size/12 = Approximate Betweenness Centrality -\> k-Clique.png>) |
-| 11 | Reach Centrality | Matrix Product | ![alt text](<impactful_edges_by_size/11 = Reach Centrality -\> Matrix Product.png>) |
-| 11 | Reach Centrality | Negative Triangle Search | ![alt text](<impactful_edges_by_size/11 = Reach Centrality -\> Negative Triangle Search.png>) |
-| 11 | Reach Centrality | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/11 = Reach Centrality -\> Negative Triangle Listing.png>) |
-| 11 | Reach Centrality | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/11 = Reach Centrality -\> Minimum Witness Finding.png>) |
-| 11 | Reach Centrality | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/11 = Reach Centrality -\> All Pairs Minimum Witness (APMW).png>) |
-| 11 | Reach Centrality | Directed Radius | ![alt text](<impactful_edges_by_size/11 = Reach Centrality -\> Directed Radius.png>) |
-| 11 | Reach Centrality | Undirected Radius | ![alt text](<impactful_edges_by_size/11 = Reach Centrality -\> Undirected Radius.png>) |
-| 11 | Reach Centrality | Directed Median | ![alt text](<impactful_edges_by_size/11 = Reach Centrality -\> Directed Median.png>) |
-| 11 | Reach Centrality | Undirected Median | ![alt text](<impactful_edges_by_size/11 = Reach Centrality -\> Undirected Median.png>) |
-| 11 | Reach Centrality | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/11 = Reach Centrality -\> Max-Weight k-Clique.png>) |
-| 11 | Diameter | Matrix Product | ![alt text](<impactful_edges_by_size/11 = Diameter -\> Matrix Product.png>) |
-| 11 | Diameter | Negative Triangle Search | ![alt text](<impactful_edges_by_size/11 = Diameter -\> Negative Triangle Search.png>) |
-| 11 | Diameter | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/11 = Diameter -\> Negative Triangle Listing.png>) |
-| 11 | Diameter | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/11 = Diameter -\> Minimum Witness Finding.png>) |
-| 11 | Diameter | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/11 = Diameter -\> All Pairs Minimum Witness (APMW).png>) |
-| 11 | Diameter | Directed Radius | ![alt text](<impactful_edges_by_size/11 = Diameter -\> Directed Radius.png>) |
-| 11 | Diameter | Undirected Radius | ![alt text](<impactful_edges_by_size/11 = Diameter -\> Undirected Radius.png>) |
-| 11 | Diameter | Directed Median | ![alt text](<impactful_edges_by_size/11 = Diameter -\> Directed Median.png>) |
-| 11 | Diameter | Undirected Median | ![alt text](<impactful_edges_by_size/11 = Diameter -\> Undirected Median.png>) |
-| 11 | Diameter | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/11 = Diameter -\> Max-Weight k-Clique.png>) |
-| 11 | Positive Betweenness Centrality | Matrix Product | ![alt text](<impactful_edges_by_size/11 = Positive Betweenness Centrality -\> Matrix Product.png>) |
-| 11 | Positive Betweenness Centrality | Negative Triangle Search | ![alt text](<impactful_edges_by_size/11 = Positive Betweenness Centrality -\> Negative Triangle Search.png>) |
-| 11 | Positive Betweenness Centrality | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/11 = Positive Betweenness Centrality -\> Negative Triangle Listing.png>) |
-| 11 | Positive Betweenness Centrality | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/11 = Positive Betweenness Centrality -\> Minimum Witness Finding.png>) |
-| 11 | Positive Betweenness Centrality | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/11 = Positive Betweenness Centrality -\> All Pairs Minimum Witness (APMW).png>) |
-| 11 | Positive Betweenness Centrality | Directed Radius | ![alt text](<impactful_edges_by_size/11 = Positive Betweenness Centrality -\> Directed Radius.png>) |
-| 11 | Positive Betweenness Centrality | Undirected Radius | ![alt text](<impactful_edges_by_size/11 = Positive Betweenness Centrality -\> Undirected Radius.png>) |
-| 11 | Positive Betweenness Centrality | Directed Median | ![alt text](<impactful_edges_by_size/11 = Positive Betweenness Centrality -\> Directed Median.png>) |
-| 11 | Positive Betweenness Centrality | Undirected Median | ![alt text](<impactful_edges_by_size/11 = Positive Betweenness Centrality -\> Undirected Median.png>) |
-| 11 | Positive Betweenness Centrality | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/11 = Positive Betweenness Centrality -\> Max-Weight k-Clique.png>) |
-| 11 | Approximate Betweenness Centrality | Matrix Product | ![alt text](<impactful_edges_by_size/11 = Approximate Betweenness Centrality -\> Matrix Product.png>) |
-| 11 | Approximate Betweenness Centrality | Negative Triangle Search | ![alt text](<impactful_edges_by_size/11 = Approximate Betweenness Centrality -\> Negative Triangle Search.png>) |
-| 11 | Approximate Betweenness Centrality | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/11 = Approximate Betweenness Centrality -\> Negative Triangle Listing.png>) |
-| 11 | Approximate Betweenness Centrality | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/11 = Approximate Betweenness Centrality -\> Minimum Witness Finding.png>) |
-| 11 | Approximate Betweenness Centrality | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/11 = Approximate Betweenness Centrality -\> All Pairs Minimum Witness (APMW).png>) |
-| 11 | Approximate Betweenness Centrality | Directed Radius | ![alt text](<impactful_edges_by_size/11 = Approximate Betweenness Centrality -\> Directed Radius.png>) |
-| 11 | Approximate Betweenness Centrality | Undirected Radius | ![alt text](<impactful_edges_by_size/11 = Approximate Betweenness Centrality -\> Undirected Radius.png>) |
-| 11 | Approximate Betweenness Centrality | Directed Median | ![alt text](<impactful_edges_by_size/11 = Approximate Betweenness Centrality -\> Directed Median.png>) |
-| 11 | Approximate Betweenness Centrality | Undirected Median | ![alt text](<impactful_edges_by_size/11 = Approximate Betweenness Centrality -\> Undirected Median.png>) |
-| 11 | Approximate Betweenness Centrality | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/11 = Approximate Betweenness Centrality -\> Max-Weight k-Clique.png>) |
-| 10 | Second Shortest Simple Path | k-Clique | ![alt text](<impactful_edges_by_size/10 = Second Shortest Simple Path -\> k-Clique.png>) |
-| 10 | Reach Centrality | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/10 = Reach Centrality -\> Directed, Weighted APSP.png>) |
-| 10 | Reach Centrality | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/10 = Reach Centrality -\> Negative Triangle Detection.png>) |
-| 10 | Reach Centrality | Maximum Subarray | ![alt text](<impactful_edges_by_size/10 = Reach Centrality -\> Maximum Subarray.png>) |
-| 10 | Reach Centrality | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/10 = Reach Centrality -\> Undirected, Weighted APSP.png>) |
-| 10 | Reach Centrality | Metricity | ![alt text](<impactful_edges_by_size/10 = Reach Centrality -\> Metricity.png>) |
-| 10 | Reach Centrality | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/10 = Reach Centrality -\> Betweenness Centrality (BC).png>) |
-| 10 | Diameter | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/10 = Diameter -\> Directed, Weighted APSP.png>) |
-| 10 | Diameter | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/10 = Diameter -\> Negative Triangle Detection.png>) |
-| 10 | Diameter | Maximum Subarray | ![alt text](<impactful_edges_by_size/10 = Diameter -\> Maximum Subarray.png>) |
-| 10 | Diameter | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/10 = Diameter -\> Undirected, Weighted APSP.png>) |
-| 10 | Diameter | Metricity | ![alt text](<impactful_edges_by_size/10 = Diameter -\> Metricity.png>) |
-| 10 | Diameter | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/10 = Diameter -\> Betweenness Centrality (BC).png>) |
-| 10 | Positive Betweenness Centrality | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/10 = Positive Betweenness Centrality -\> Directed, Weighted APSP.png>) |
-| 10 | Positive Betweenness Centrality | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/10 = Positive Betweenness Centrality -\> Negative Triangle Detection.png>) |
-| 10 | Positive Betweenness Centrality | Maximum Subarray | ![alt text](<impactful_edges_by_size/10 = Positive Betweenness Centrality -\> Maximum Subarray.png>) |
-| 10 | Positive Betweenness Centrality | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/10 = Positive Betweenness Centrality -\> Undirected, Weighted APSP.png>) |
-| 10 | Positive Betweenness Centrality | Metricity | ![alt text](<impactful_edges_by_size/10 = Positive Betweenness Centrality -\> Metricity.png>) |
-| 10 | Positive Betweenness Centrality | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/10 = Positive Betweenness Centrality -\> Betweenness Centrality (BC).png>) |
-| 10 | Approximate Betweenness Centrality | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/10 = Approximate Betweenness Centrality -\> Directed, Weighted APSP.png>) |
-| 10 | Approximate Betweenness Centrality | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/10 = Approximate Betweenness Centrality -\> Negative Triangle Detection.png>) |
-| 10 | Approximate Betweenness Centrality | Maximum Subarray | ![alt text](<impactful_edges_by_size/10 = Approximate Betweenness Centrality -\> Maximum Subarray.png>) |
-| 10 | Approximate Betweenness Centrality | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/10 = Approximate Betweenness Centrality -\> Undirected, Weighted APSP.png>) |
-| 10 | Approximate Betweenness Centrality | Metricity | ![alt text](<impactful_edges_by_size/10 = Approximate Betweenness Centrality -\> Metricity.png>) |
-| 10 | Approximate Betweenness Centrality | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/10 = Approximate Betweenness Centrality -\> Betweenness Centrality (BC).png>) |
-| 10 | 1-sensitive decremental st-shortest paths | k-Clique | ![alt text](<impactful_edges_by_size/10 = 1-sensitive decremental st-shortest paths -\> k-Clique.png>) |
-| 9 | Triangle Measure | 3SUM | ![alt text](<impactful_edges_by_size/9 = Triangle Measure -\> 3SUM.png>) |
-| 9 | Triangle Measure | 3SUM' | ![alt text](<impactful_edges_by_size/9 = Triangle Measure -\> 3SUM'.png>) |
-| 9 | Triangle Measure | GeomBase | ![alt text](<impactful_edges_by_size/9 = Triangle Measure -\> GeomBase.png>) |
-| 9 | Triangle Measure | All-Integers 3SUM | ![alt text](<impactful_edges_by_size/9 = Triangle Measure -\> All-Integers 3SUM.png>) |
-| 9 | 3D Motion Planning | 3SUM | ![alt text](<impactful_edges_by_size/9 = 3D Motion Planning -\> 3SUM.png>) |
-| 9 | 3D Motion Planning | 3SUM' | ![alt text](<impactful_edges_by_size/9 = 3D Motion Planning -\> 3SUM'.png>) |
-| 9 | 3D Motion Planning | GeomBase | ![alt text](<impactful_edges_by_size/9 = 3D Motion Planning -\> GeomBase.png>) |
-| 9 | 3D Motion Planning | All-Integers 3SUM | ![alt text](<impactful_edges_by_size/9 = 3D Motion Planning -\> All-Integers 3SUM.png>) |
-| 9 | Matrix Product Verification | k-Clique | ![alt text](<impactful_edges_by_size/9 = Matrix Product Verification -\> k-Clique.png>) |
-| 9 | Distance Product | k-Clique | ![alt text](<impactful_edges_by_size/9 = Distance Product -\> k-Clique.png>) |
-| 9 | Shortest Cycle | k-Clique | ![alt text](<impactful_edges_by_size/9 = Shortest Cycle -\> k-Clique.png>) |
-| 9 | Second Shortest Simple Path | Matrix Product | ![alt text](<impactful_edges_by_size/9 = Second Shortest Simple Path -\> Matrix Product.png>) |
-| 9 | Second Shortest Simple Path | Negative Triangle Search | ![alt text](<impactful_edges_by_size/9 = Second Shortest Simple Path -\> Negative Triangle Search.png>) |
-| 9 | Second Shortest Simple Path | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/9 = Second Shortest Simple Path -\> Negative Triangle Listing.png>) |
-| 9 | Second Shortest Simple Path | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/9 = Second Shortest Simple Path -\> Minimum Witness Finding.png>) |
-| 9 | Second Shortest Simple Path | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/9 = Second Shortest Simple Path -\> All Pairs Minimum Witness (APMW).png>) |
-| 9 | Second Shortest Simple Path | Directed Radius | ![alt text](<impactful_edges_by_size/9 = Second Shortest Simple Path -\> Directed Radius.png>) |
-| 9 | Second Shortest Simple Path | Undirected Radius | ![alt text](<impactful_edges_by_size/9 = Second Shortest Simple Path -\> Undirected Radius.png>) |
-| 9 | Second Shortest Simple Path | Directed Median | ![alt text](<impactful_edges_by_size/9 = Second Shortest Simple Path -\> Directed Median.png>) |
-| 9 | Second Shortest Simple Path | Undirected Median | ![alt text](<impactful_edges_by_size/9 = Second Shortest Simple Path -\> Undirected Median.png>) |
-| 9 | Second Shortest Simple Path | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/9 = Second Shortest Simple Path -\> Max-Weight k-Clique.png>) |
-| 9 | Replacement Paths Problem (RPP) | k-Clique | ![alt text](<impactful_edges_by_size/9 = Replacement Paths Problem (RPP) -\> k-Clique.png>) |
-| 9 | Price Query | k-Clique | ![alt text](<impactful_edges_by_size/9 = Price Query -\> k-Clique.png>) |
-| 9 | Radius | k-Clique | ![alt text](<impactful_edges_by_size/9 = Radius -\> k-Clique.png>) |
-| 9 | Median | k-Clique | ![alt text](<impactful_edges_by_size/9 = Median -\> k-Clique.png>) |
-| 9 | All-Nodes Median Parity | k-Clique | ![alt text](<impactful_edges_by_size/9 = All-Nodes Median Parity -\> k-Clique.png>) |
-| 9 | All-Nodes Positive Betweenness Centrality | k-Clique | ![alt text](<impactful_edges_by_size/9 = All-Nodes Positive Betweenness Centrality -\> k-Clique.png>) |
-| 9 | Directed All-Nodes Positive Betweenness Centrality | k-Clique | ![alt text](<impactful_edges_by_size/9 = Directed All-Nodes Positive Betweenness Centrality -\> k-Clique.png>) |
-| 9 | Undirected All-Nodes Positive Betweenness Centrality | k-Clique | ![alt text](<impactful_edges_by_size/9 = Undirected All-Nodes Positive Betweenness Centrality -\> k-Clique.png>) |
-| 9 | Directed All-Nodes Reach Centrality | k-Clique | ![alt text](<impactful_edges_by_size/9 = Directed All-Nodes Reach Centrality -\> k-Clique.png>) |
-| 9 | Undirected All-Nodes Reach Centrality | k-Clique | ![alt text](<impactful_edges_by_size/9 = Undirected All-Nodes Reach Centrality -\> k-Clique.png>) |
-| 9 | Dynamic Bipartite Maximum-Weight Matching | k-Clique | ![alt text](<impactful_edges_by_size/9 = Dynamic Bipartite Maximum-Weight Matching -\> k-Clique.png>) |
-| 9 | Dynamic $st$-Shortest Path | k-Clique | ![alt text](<impactful_edges_by_size/9 = Dynamic $st$-Shortest Path -\> k-Clique.png>) |
-| 9 | 1-sensitive decremental st-shortest paths | Matrix Product | ![alt text](<impactful_edges_by_size/9 = 1-sensitive decremental st-shortest paths -\> Matrix Product.png>) |
-| 9 | 1-sensitive decremental st-shortest paths | Negative Triangle Search | ![alt text](<impactful_edges_by_size/9 = 1-sensitive decremental st-shortest paths -\> Negative Triangle Search.png>) |
-| 9 | 1-sensitive decremental st-shortest paths | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/9 = 1-sensitive decremental st-shortest paths -\> Negative Triangle Listing.png>) |
-| 9 | 1-sensitive decremental st-shortest paths | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/9 = 1-sensitive decremental st-shortest paths -\> Minimum Witness Finding.png>) |
-| 9 | 1-sensitive decremental st-shortest paths | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/9 = 1-sensitive decremental st-shortest paths -\> All Pairs Minimum Witness (APMW).png>) |
-| 9 | 1-sensitive decremental st-shortest paths | Directed Radius | ![alt text](<impactful_edges_by_size/9 = 1-sensitive decremental st-shortest paths -\> Directed Radius.png>) |
-| 9 | 1-sensitive decremental st-shortest paths | Undirected Radius | ![alt text](<impactful_edges_by_size/9 = 1-sensitive decremental st-shortest paths -\> Undirected Radius.png>) |
-| 9 | 1-sensitive decremental st-shortest paths | Directed Median | ![alt text](<impactful_edges_by_size/9 = 1-sensitive decremental st-shortest paths -\> Directed Median.png>) |
-| 9 | 1-sensitive decremental st-shortest paths | Undirected Median | ![alt text](<impactful_edges_by_size/9 = 1-sensitive decremental st-shortest paths -\> Undirected Median.png>) |
-| 9 | 1-sensitive decremental st-shortest paths | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/9 = 1-sensitive decremental st-shortest paths -\> Max-Weight k-Clique.png>) |
-| 9 | 2-sensitive decremental st-shortest paths | k-Clique | ![alt text](<impactful_edges_by_size/9 = 2-sensitive decremental st-shortest paths -\> k-Clique.png>) |
-| 9 | 1-sensitive decremental diameter | k-Clique | ![alt text](<impactful_edges_by_size/9 = 1-sensitive decremental diameter -\> k-Clique.png>) |
-| 9 | 2D Maximum Subarray | k-Clique | ![alt text](<impactful_edges_by_size/9 = 2D Maximum Subarray -\> k-Clique.png>) |
-| 8 | Triangles Cover Triangle | 3SUM | ![alt text](<impactful_edges_by_size/8 = Triangles Cover Triangle -\> 3SUM.png>) |
-| 8 | Triangles Cover Triangle | 3SUM' | ![alt text](<impactful_edges_by_size/8 = Triangles Cover Triangle -\> 3SUM'.png>) |
-| 8 | Triangles Cover Triangle | GeomBase | ![alt text](<impactful_edges_by_size/8 = Triangles Cover Triangle -\> GeomBase.png>) |
-| 8 | Triangles Cover Triangle | All-Integers 3SUM | ![alt text](<impactful_edges_by_size/8 = Triangles Cover Triangle -\> All-Integers 3SUM.png>) |
-| 8 | Hole in Union | 3SUM | ![alt text](<impactful_edges_by_size/8 = Hole in Union -\> 3SUM.png>) |
-| 8 | Hole in Union | 3SUM' | ![alt text](<impactful_edges_by_size/8 = Hole in Union -\> 3SUM'.png>) |
-| 8 | Hole in Union | GeomBase | ![alt text](<impactful_edges_by_size/8 = Hole in Union -\> GeomBase.png>) |
-| 8 | Hole in Union | All-Integers 3SUM | ![alt text](<impactful_edges_by_size/8 = Hole in Union -\> All-Integers 3SUM.png>) |
-| 8 | Visible Triangle | 3SUM | ![alt text](<impactful_edges_by_size/8 = Visible Triangle -\> 3SUM.png>) |
-| 8 | Visible Triangle | 3SUM' | ![alt text](<impactful_edges_by_size/8 = Visible Triangle -\> 3SUM'.png>) |
-| 8 | Visible Triangle | GeomBase | ![alt text](<impactful_edges_by_size/8 = Visible Triangle -\> GeomBase.png>) |
-| 8 | Visible Triangle | All-Integers 3SUM | ![alt text](<impactful_edges_by_size/8 = Visible Triangle -\> All-Integers 3SUM.png>) |
-| 8 | Directed, Weighted APSP | k-Clique | ![alt text](<impactful_edges_by_size/8 = Directed, Weighted APSP -\> k-Clique.png>) |
-| 8 | Negative Triangle Detection | k-Clique | ![alt text](<impactful_edges_by_size/8 = Negative Triangle Detection -\> k-Clique.png>) |
-| 8 | Matrix Product Verification | Matrix Product | ![alt text](<impactful_edges_by_size/8 = Matrix Product Verification -\> Matrix Product.png>) |
-| 8 | Matrix Product Verification | Negative Triangle Search | ![alt text](<impactful_edges_by_size/8 = Matrix Product Verification -\> Negative Triangle Search.png>) |
-| 8 | Matrix Product Verification | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/8 = Matrix Product Verification -\> Negative Triangle Listing.png>) |
-| 8 | Matrix Product Verification | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/8 = Matrix Product Verification -\> Minimum Witness Finding.png>) |
-| 8 | Matrix Product Verification | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/8 = Matrix Product Verification -\> All Pairs Minimum Witness (APMW).png>) |
-| 8 | Matrix Product Verification | Directed Radius | ![alt text](<impactful_edges_by_size/8 = Matrix Product Verification -\> Directed Radius.png>) |
-| 8 | Matrix Product Verification | Undirected Radius | ![alt text](<impactful_edges_by_size/8 = Matrix Product Verification -\> Undirected Radius.png>) |
-| 8 | Matrix Product Verification | Directed Median | ![alt text](<impactful_edges_by_size/8 = Matrix Product Verification -\> Directed Median.png>) |
-| 8 | Matrix Product Verification | Undirected Median | ![alt text](<impactful_edges_by_size/8 = Matrix Product Verification -\> Undirected Median.png>) |
-| 8 | Matrix Product Verification | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/8 = Matrix Product Verification -\> Max-Weight k-Clique.png>) |
-| 8 | Maximum Subarray | k-Clique | ![alt text](<impactful_edges_by_size/8 = Maximum Subarray -\> k-Clique.png>) |
-| 8 | Distance Product | Matrix Product | ![alt text](<impactful_edges_by_size/8 = Distance Product -\> Matrix Product.png>) |
-| 8 | Distance Product | Negative Triangle Search | ![alt text](<impactful_edges_by_size/8 = Distance Product -\> Negative Triangle Search.png>) |
-| 8 | Distance Product | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/8 = Distance Product -\> Negative Triangle Listing.png>) |
-| 8 | Distance Product | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/8 = Distance Product -\> Minimum Witness Finding.png>) |
-| 8 | Distance Product | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/8 = Distance Product -\> All Pairs Minimum Witness (APMW).png>) |
-| 8 | Distance Product | Directed Radius | ![alt text](<impactful_edges_by_size/8 = Distance Product -\> Directed Radius.png>) |
-| 8 | Distance Product | Undirected Radius | ![alt text](<impactful_edges_by_size/8 = Distance Product -\> Undirected Radius.png>) |
-| 8 | Distance Product | Directed Median | ![alt text](<impactful_edges_by_size/8 = Distance Product -\> Directed Median.png>) |
-| 8 | Distance Product | Undirected Median | ![alt text](<impactful_edges_by_size/8 = Distance Product -\> Undirected Median.png>) |
-| 8 | Distance Product | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/8 = Distance Product -\> Max-Weight k-Clique.png>) |
-| 8 | Undirected, Weighted APSP | k-Clique | ![alt text](<impactful_edges_by_size/8 = Undirected, Weighted APSP -\> k-Clique.png>) |
-| 8 | Metricity | k-Clique | ![alt text](<impactful_edges_by_size/8 = Metricity -\> k-Clique.png>) |
-| 8 | Shortest Cycle | Matrix Product | ![alt text](<impactful_edges_by_size/8 = Shortest Cycle -\> Matrix Product.png>) |
-| 8 | Shortest Cycle | Negative Triangle Search | ![alt text](<impactful_edges_by_size/8 = Shortest Cycle -\> Negative Triangle Search.png>) |
-| 8 | Shortest Cycle | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/8 = Shortest Cycle -\> Negative Triangle Listing.png>) |
-| 8 | Shortest Cycle | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/8 = Shortest Cycle -\> Minimum Witness Finding.png>) |
-| 8 | Shortest Cycle | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/8 = Shortest Cycle -\> All Pairs Minimum Witness (APMW).png>) |
-| 8 | Shortest Cycle | Directed Radius | ![alt text](<impactful_edges_by_size/8 = Shortest Cycle -\> Directed Radius.png>) |
-| 8 | Shortest Cycle | Undirected Radius | ![alt text](<impactful_edges_by_size/8 = Shortest Cycle -\> Undirected Radius.png>) |
-| 8 | Shortest Cycle | Directed Median | ![alt text](<impactful_edges_by_size/8 = Shortest Cycle -\> Directed Median.png>) |
-| 8 | Shortest Cycle | Undirected Median | ![alt text](<impactful_edges_by_size/8 = Shortest Cycle -\> Undirected Median.png>) |
-| 8 | Shortest Cycle | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/8 = Shortest Cycle -\> Max-Weight k-Clique.png>) |
-| 8 | Second Shortest Simple Path | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/8 = Second Shortest Simple Path -\> Directed, Weighted APSP.png>) |
-| 8 | Second Shortest Simple Path | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/8 = Second Shortest Simple Path -\> Negative Triangle Detection.png>) |
-| 8 | Second Shortest Simple Path | Maximum Subarray | ![alt text](<impactful_edges_by_size/8 = Second Shortest Simple Path -\> Maximum Subarray.png>) |
-| 8 | Second Shortest Simple Path | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/8 = Second Shortest Simple Path -\> Undirected, Weighted APSP.png>) |
-| 8 | Second Shortest Simple Path | Metricity | ![alt text](<impactful_edges_by_size/8 = Second Shortest Simple Path -\> Metricity.png>) |
-| 8 | Second Shortest Simple Path | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/8 = Second Shortest Simple Path -\> Betweenness Centrality (BC).png>) |
-| 8 | Replacement Paths Problem (RPP) | Matrix Product | ![alt text](<impactful_edges_by_size/8 = Replacement Paths Problem (RPP) -\> Matrix Product.png>) |
-| 8 | Replacement Paths Problem (RPP) | Negative Triangle Search | ![alt text](<impactful_edges_by_size/8 = Replacement Paths Problem (RPP) -\> Negative Triangle Search.png>) |
-| 8 | Replacement Paths Problem (RPP) | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/8 = Replacement Paths Problem (RPP) -\> Negative Triangle Listing.png>) |
-| 8 | Replacement Paths Problem (RPP) | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/8 = Replacement Paths Problem (RPP) -\> Minimum Witness Finding.png>) |
-| 8 | Replacement Paths Problem (RPP) | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/8 = Replacement Paths Problem (RPP) -\> All Pairs Minimum Witness (APMW).png>) |
-| 8 | Replacement Paths Problem (RPP) | Directed Radius | ![alt text](<impactful_edges_by_size/8 = Replacement Paths Problem (RPP) -\> Directed Radius.png>) |
-| 8 | Replacement Paths Problem (RPP) | Undirected Radius | ![alt text](<impactful_edges_by_size/8 = Replacement Paths Problem (RPP) -\> Undirected Radius.png>) |
-| 8 | Replacement Paths Problem (RPP) | Directed Median | ![alt text](<impactful_edges_by_size/8 = Replacement Paths Problem (RPP) -\> Directed Median.png>) |
-| 8 | Replacement Paths Problem (RPP) | Undirected Median | ![alt text](<impactful_edges_by_size/8 = Replacement Paths Problem (RPP) -\> Undirected Median.png>) |
-| 8 | Replacement Paths Problem (RPP) | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/8 = Replacement Paths Problem (RPP) -\> Max-Weight k-Clique.png>) |
-| 8 | Price Query | Matrix Product | ![alt text](<impactful_edges_by_size/8 = Price Query -\> Matrix Product.png>) |
-| 8 | Price Query | Negative Triangle Search | ![alt text](<impactful_edges_by_size/8 = Price Query -\> Negative Triangle Search.png>) |
-| 8 | Price Query | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/8 = Price Query -\> Negative Triangle Listing.png>) |
-| 8 | Price Query | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/8 = Price Query -\> Minimum Witness Finding.png>) |
-| 8 | Price Query | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/8 = Price Query -\> All Pairs Minimum Witness (APMW).png>) |
-| 8 | Price Query | Directed Radius | ![alt text](<impactful_edges_by_size/8 = Price Query -\> Directed Radius.png>) |
-| 8 | Price Query | Undirected Radius | ![alt text](<impactful_edges_by_size/8 = Price Query -\> Undirected Radius.png>) |
-| 8 | Price Query | Directed Median | ![alt text](<impactful_edges_by_size/8 = Price Query -\> Directed Median.png>) |
-| 8 | Price Query | Undirected Median | ![alt text](<impactful_edges_by_size/8 = Price Query -\> Undirected Median.png>) |
-| 8 | Price Query | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/8 = Price Query -\> Max-Weight k-Clique.png>) |
-| 8 | Betweenness Centrality (BC) | k-Clique | ![alt text](<impactful_edges_by_size/8 = Betweenness Centrality (BC) -\> k-Clique.png>) |
-| 8 | Radius | Matrix Product | ![alt text](<impactful_edges_by_size/8 = Radius -\> Matrix Product.png>) |
-| 8 | Radius | Negative Triangle Search | ![alt text](<impactful_edges_by_size/8 = Radius -\> Negative Triangle Search.png>) |
-| 8 | Radius | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/8 = Radius -\> Negative Triangle Listing.png>) |
-| 8 | Radius | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/8 = Radius -\> Minimum Witness Finding.png>) |
-| 8 | Radius | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/8 = Radius -\> All Pairs Minimum Witness (APMW).png>) |
-| 8 | Radius | Directed Radius | ![alt text](<impactful_edges_by_size/8 = Radius -\> Directed Radius.png>) |
-| 8 | Radius | Undirected Radius | ![alt text](<impactful_edges_by_size/8 = Radius -\> Undirected Radius.png>) |
-| 8 | Radius | Directed Median | ![alt text](<impactful_edges_by_size/8 = Radius -\> Directed Median.png>) |
-| 8 | Radius | Undirected Median | ![alt text](<impactful_edges_by_size/8 = Radius -\> Undirected Median.png>) |
-| 8 | Radius | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/8 = Radius -\> Max-Weight k-Clique.png>) |
-| 8 | Median | Matrix Product | ![alt text](<impactful_edges_by_size/8 = Median -\> Matrix Product.png>) |
-| 8 | Median | Negative Triangle Search | ![alt text](<impactful_edges_by_size/8 = Median -\> Negative Triangle Search.png>) |
-| 8 | Median | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/8 = Median -\> Negative Triangle Listing.png>) |
-| 8 | Median | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/8 = Median -\> Minimum Witness Finding.png>) |
-| 8 | Median | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/8 = Median -\> All Pairs Minimum Witness (APMW).png>) |
-| 8 | Median | Directed Radius | ![alt text](<impactful_edges_by_size/8 = Median -\> Directed Radius.png>) |
-| 8 | Median | Undirected Radius | ![alt text](<impactful_edges_by_size/8 = Median -\> Undirected Radius.png>) |
-| 8 | Median | Directed Median | ![alt text](<impactful_edges_by_size/8 = Median -\> Directed Median.png>) |
-| 8 | Median | Undirected Median | ![alt text](<impactful_edges_by_size/8 = Median -\> Undirected Median.png>) |
-| 8 | Median | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/8 = Median -\> Max-Weight k-Clique.png>) |
-| 8 | All-Nodes Median Parity | Matrix Product | ![alt text](<impactful_edges_by_size/8 = All-Nodes Median Parity -\> Matrix Product.png>) |
-| 8 | All-Nodes Median Parity | Negative Triangle Search | ![alt text](<impactful_edges_by_size/8 = All-Nodes Median Parity -\> Negative Triangle Search.png>) |
-| 8 | All-Nodes Median Parity | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/8 = All-Nodes Median Parity -\> Negative Triangle Listing.png>) |
-| 8 | All-Nodes Median Parity | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/8 = All-Nodes Median Parity -\> Minimum Witness Finding.png>) |
-| 8 | All-Nodes Median Parity | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/8 = All-Nodes Median Parity -\> All Pairs Minimum Witness (APMW).png>) |
-| 8 | All-Nodes Median Parity | Directed Radius | ![alt text](<impactful_edges_by_size/8 = All-Nodes Median Parity -\> Directed Radius.png>) |
-| 8 | All-Nodes Median Parity | Undirected Radius | ![alt text](<impactful_edges_by_size/8 = All-Nodes Median Parity -\> Undirected Radius.png>) |
-| 8 | All-Nodes Median Parity | Directed Median | ![alt text](<impactful_edges_by_size/8 = All-Nodes Median Parity -\> Directed Median.png>) |
-| 8 | All-Nodes Median Parity | Undirected Median | ![alt text](<impactful_edges_by_size/8 = All-Nodes Median Parity -\> Undirected Median.png>) |
-| 8 | All-Nodes Median Parity | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/8 = All-Nodes Median Parity -\> Max-Weight k-Clique.png>) |
-| 8 | All-Nodes Positive Betweenness Centrality | Matrix Product | ![alt text](<impactful_edges_by_size/8 = All-Nodes Positive Betweenness Centrality -\> Matrix Product.png>) |
-| 8 | All-Nodes Positive Betweenness Centrality | Negative Triangle Search | ![alt text](<impactful_edges_by_size/8 = All-Nodes Positive Betweenness Centrality -\> Negative Triangle Search.png>) |
-| 8 | All-Nodes Positive Betweenness Centrality | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/8 = All-Nodes Positive Betweenness Centrality -\> Negative Triangle Listing.png>) |
-| 8 | All-Nodes Positive Betweenness Centrality | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/8 = All-Nodes Positive Betweenness Centrality -\> Minimum Witness Finding.png>) |
-| 8 | All-Nodes Positive Betweenness Centrality | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/8 = All-Nodes Positive Betweenness Centrality -\> All Pairs Minimum Witness (APMW).png>) |
-| 8 | All-Nodes Positive Betweenness Centrality | Directed Radius | ![alt text](<impactful_edges_by_size/8 = All-Nodes Positive Betweenness Centrality -\> Directed Radius.png>) |
-| 8 | All-Nodes Positive Betweenness Centrality | Undirected Radius | ![alt text](<impactful_edges_by_size/8 = All-Nodes Positive Betweenness Centrality -\> Undirected Radius.png>) |
-| 8 | All-Nodes Positive Betweenness Centrality | Directed Median | ![alt text](<impactful_edges_by_size/8 = All-Nodes Positive Betweenness Centrality -\> Directed Median.png>) |
-| 8 | All-Nodes Positive Betweenness Centrality | Undirected Median | ![alt text](<impactful_edges_by_size/8 = All-Nodes Positive Betweenness Centrality -\> Undirected Median.png>) |
-| 8 | All-Nodes Positive Betweenness Centrality | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/8 = All-Nodes Positive Betweenness Centrality -\> Max-Weight k-Clique.png>) |
-| 8 | Directed All-Nodes Positive Betweenness Centrality | Matrix Product | ![alt text](<impactful_edges_by_size/8 = Directed All-Nodes Positive Betweenness Centrality -\> Matrix Product.png>) |
-| 8 | Directed All-Nodes Positive Betweenness Centrality | Negative Triangle Search | ![alt text](<impactful_edges_by_size/8 = Directed All-Nodes Positive Betweenness Centrality -\> Negative Triangle Search.png>) |
-| 8 | Directed All-Nodes Positive Betweenness Centrality | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/8 = Directed All-Nodes Positive Betweenness Centrality -\> Negative Triangle Listing.png>) |
-| 8 | Directed All-Nodes Positive Betweenness Centrality | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/8 = Directed All-Nodes Positive Betweenness Centrality -\> Minimum Witness Finding.png>) |
-| 8 | Directed All-Nodes Positive Betweenness Centrality | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/8 = Directed All-Nodes Positive Betweenness Centrality -\> All Pairs Minimum Witness (APMW).png>) |
-| 8 | Directed All-Nodes Positive Betweenness Centrality | Directed Radius | ![alt text](<impactful_edges_by_size/8 = Directed All-Nodes Positive Betweenness Centrality -\> Directed Radius.png>) |
-| 8 | Directed All-Nodes Positive Betweenness Centrality | Undirected Radius | ![alt text](<impactful_edges_by_size/8 = Directed All-Nodes Positive Betweenness Centrality -\> Undirected Radius.png>) |
-| 8 | Directed All-Nodes Positive Betweenness Centrality | Directed Median | ![alt text](<impactful_edges_by_size/8 = Directed All-Nodes Positive Betweenness Centrality -\> Directed Median.png>) |
-| 8 | Directed All-Nodes Positive Betweenness Centrality | Undirected Median | ![alt text](<impactful_edges_by_size/8 = Directed All-Nodes Positive Betweenness Centrality -\> Undirected Median.png>) |
-| 8 | Directed All-Nodes Positive Betweenness Centrality | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/8 = Directed All-Nodes Positive Betweenness Centrality -\> Max-Weight k-Clique.png>) |
-| 8 | Undirected All-Nodes Positive Betweenness Centrality | Matrix Product | ![alt text](<impactful_edges_by_size/8 = Undirected All-Nodes Positive Betweenness Centrality -\> Matrix Product.png>) |
-| 8 | Undirected All-Nodes Positive Betweenness Centrality | Negative Triangle Search | ![alt text](<impactful_edges_by_size/8 = Undirected All-Nodes Positive Betweenness Centrality -\> Negative Triangle Search.png>) |
-| 8 | Undirected All-Nodes Positive Betweenness Centrality | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/8 = Undirected All-Nodes Positive Betweenness Centrality -\> Negative Triangle Listing.png>) |
-| 8 | Undirected All-Nodes Positive Betweenness Centrality | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/8 = Undirected All-Nodes Positive Betweenness Centrality -\> Minimum Witness Finding.png>) |
-| 8 | Undirected All-Nodes Positive Betweenness Centrality | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/8 = Undirected All-Nodes Positive Betweenness Centrality -\> All Pairs Minimum Witness (APMW).png>) |
-| 8 | Undirected All-Nodes Positive Betweenness Centrality | Directed Radius | ![alt text](<impactful_edges_by_size/8 = Undirected All-Nodes Positive Betweenness Centrality -\> Directed Radius.png>) |
-| 8 | Undirected All-Nodes Positive Betweenness Centrality | Undirected Radius | ![alt text](<impactful_edges_by_size/8 = Undirected All-Nodes Positive Betweenness Centrality -\> Undirected Radius.png>) |
-| 8 | Undirected All-Nodes Positive Betweenness Centrality | Directed Median | ![alt text](<impactful_edges_by_size/8 = Undirected All-Nodes Positive Betweenness Centrality -\> Directed Median.png>) |
-| 8 | Undirected All-Nodes Positive Betweenness Centrality | Undirected Median | ![alt text](<impactful_edges_by_size/8 = Undirected All-Nodes Positive Betweenness Centrality -\> Undirected Median.png>) |
-| 8 | Undirected All-Nodes Positive Betweenness Centrality | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/8 = Undirected All-Nodes Positive Betweenness Centrality -\> Max-Weight k-Clique.png>) |
-| 8 | Directed All-Nodes Reach Centrality | Matrix Product | ![alt text](<impactful_edges_by_size/8 = Directed All-Nodes Reach Centrality -\> Matrix Product.png>) |
-| 8 | Directed All-Nodes Reach Centrality | Negative Triangle Search | ![alt text](<impactful_edges_by_size/8 = Directed All-Nodes Reach Centrality -\> Negative Triangle Search.png>) |
-| 8 | Directed All-Nodes Reach Centrality | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/8 = Directed All-Nodes Reach Centrality -\> Negative Triangle Listing.png>) |
-| 8 | Directed All-Nodes Reach Centrality | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/8 = Directed All-Nodes Reach Centrality -\> Minimum Witness Finding.png>) |
-| 8 | Directed All-Nodes Reach Centrality | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/8 = Directed All-Nodes Reach Centrality -\> All Pairs Minimum Witness (APMW).png>) |
-| 8 | Directed All-Nodes Reach Centrality | Directed Radius | ![alt text](<impactful_edges_by_size/8 = Directed All-Nodes Reach Centrality -\> Directed Radius.png>) |
-| 8 | Directed All-Nodes Reach Centrality | Undirected Radius | ![alt text](<impactful_edges_by_size/8 = Directed All-Nodes Reach Centrality -\> Undirected Radius.png>) |
-| 8 | Directed All-Nodes Reach Centrality | Directed Median | ![alt text](<impactful_edges_by_size/8 = Directed All-Nodes Reach Centrality -\> Directed Median.png>) |
-| 8 | Directed All-Nodes Reach Centrality | Undirected Median | ![alt text](<impactful_edges_by_size/8 = Directed All-Nodes Reach Centrality -\> Undirected Median.png>) |
-| 8 | Directed All-Nodes Reach Centrality | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/8 = Directed All-Nodes Reach Centrality -\> Max-Weight k-Clique.png>) |
-| 8 | Undirected All-Nodes Reach Centrality | Matrix Product | ![alt text](<impactful_edges_by_size/8 = Undirected All-Nodes Reach Centrality -\> Matrix Product.png>) |
-| 8 | Undirected All-Nodes Reach Centrality | Negative Triangle Search | ![alt text](<impactful_edges_by_size/8 = Undirected All-Nodes Reach Centrality -\> Negative Triangle Search.png>) |
-| 8 | Undirected All-Nodes Reach Centrality | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/8 = Undirected All-Nodes Reach Centrality -\> Negative Triangle Listing.png>) |
-| 8 | Undirected All-Nodes Reach Centrality | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/8 = Undirected All-Nodes Reach Centrality -\> Minimum Witness Finding.png>) |
-| 8 | Undirected All-Nodes Reach Centrality | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/8 = Undirected All-Nodes Reach Centrality -\> All Pairs Minimum Witness (APMW).png>) |
-| 8 | Undirected All-Nodes Reach Centrality | Directed Radius | ![alt text](<impactful_edges_by_size/8 = Undirected All-Nodes Reach Centrality -\> Directed Radius.png>) |
-| 8 | Undirected All-Nodes Reach Centrality | Undirected Radius | ![alt text](<impactful_edges_by_size/8 = Undirected All-Nodes Reach Centrality -\> Undirected Radius.png>) |
-| 8 | Undirected All-Nodes Reach Centrality | Directed Median | ![alt text](<impactful_edges_by_size/8 = Undirected All-Nodes Reach Centrality -\> Directed Median.png>) |
-| 8 | Undirected All-Nodes Reach Centrality | Undirected Median | ![alt text](<impactful_edges_by_size/8 = Undirected All-Nodes Reach Centrality -\> Undirected Median.png>) |
-| 8 | Undirected All-Nodes Reach Centrality | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/8 = Undirected All-Nodes Reach Centrality -\> Max-Weight k-Clique.png>) |
-| 8 | Dynamic Bipartite Maximum-Weight Matching | Matrix Product | ![alt text](<impactful_edges_by_size/8 = Dynamic Bipartite Maximum-Weight Matching -\> Matrix Product.png>) |
-| 8 | Dynamic Bipartite Maximum-Weight Matching | Negative Triangle Search | ![alt text](<impactful_edges_by_size/8 = Dynamic Bipartite Maximum-Weight Matching -\> Negative Triangle Search.png>) |
-| 8 | Dynamic Bipartite Maximum-Weight Matching | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/8 = Dynamic Bipartite Maximum-Weight Matching -\> Negative Triangle Listing.png>) |
-| 8 | Dynamic Bipartite Maximum-Weight Matching | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/8 = Dynamic Bipartite Maximum-Weight Matching -\> Minimum Witness Finding.png>) |
-| 8 | Dynamic Bipartite Maximum-Weight Matching | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/8 = Dynamic Bipartite Maximum-Weight Matching -\> All Pairs Minimum Witness (APMW).png>) |
-| 8 | Dynamic Bipartite Maximum-Weight Matching | Directed Radius | ![alt text](<impactful_edges_by_size/8 = Dynamic Bipartite Maximum-Weight Matching -\> Directed Radius.png>) |
-| 8 | Dynamic Bipartite Maximum-Weight Matching | Undirected Radius | ![alt text](<impactful_edges_by_size/8 = Dynamic Bipartite Maximum-Weight Matching -\> Undirected Radius.png>) |
-| 8 | Dynamic Bipartite Maximum-Weight Matching | Directed Median | ![alt text](<impactful_edges_by_size/8 = Dynamic Bipartite Maximum-Weight Matching -\> Directed Median.png>) |
-| 8 | Dynamic Bipartite Maximum-Weight Matching | Undirected Median | ![alt text](<impactful_edges_by_size/8 = Dynamic Bipartite Maximum-Weight Matching -\> Undirected Median.png>) |
-| 8 | Dynamic Bipartite Maximum-Weight Matching | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/8 = Dynamic Bipartite Maximum-Weight Matching -\> Max-Weight k-Clique.png>) |
-| 8 | Dynamic $st$-Shortest Path | Matrix Product | ![alt text](<impactful_edges_by_size/8 = Dynamic $st$-Shortest Path -\> Matrix Product.png>) |
-| 8 | Dynamic $st$-Shortest Path | Negative Triangle Search | ![alt text](<impactful_edges_by_size/8 = Dynamic $st$-Shortest Path -\> Negative Triangle Search.png>) |
-| 8 | Dynamic $st$-Shortest Path | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/8 = Dynamic $st$-Shortest Path -\> Negative Triangle Listing.png>) |
-| 8 | Dynamic $st$-Shortest Path | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/8 = Dynamic $st$-Shortest Path -\> Minimum Witness Finding.png>) |
-| 8 | Dynamic $st$-Shortest Path | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/8 = Dynamic $st$-Shortest Path -\> All Pairs Minimum Witness (APMW).png>) |
-| 8 | Dynamic $st$-Shortest Path | Directed Radius | ![alt text](<impactful_edges_by_size/8 = Dynamic $st$-Shortest Path -\> Directed Radius.png>) |
-| 8 | Dynamic $st$-Shortest Path | Undirected Radius | ![alt text](<impactful_edges_by_size/8 = Dynamic $st$-Shortest Path -\> Undirected Radius.png>) |
-| 8 | Dynamic $st$-Shortest Path | Directed Median | ![alt text](<impactful_edges_by_size/8 = Dynamic $st$-Shortest Path -\> Directed Median.png>) |
-| 8 | Dynamic $st$-Shortest Path | Undirected Median | ![alt text](<impactful_edges_by_size/8 = Dynamic $st$-Shortest Path -\> Undirected Median.png>) |
-| 8 | Dynamic $st$-Shortest Path | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/8 = Dynamic $st$-Shortest Path -\> Max-Weight k-Clique.png>) |
-| 8 | 1-sensitive decremental st-shortest paths | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/8 = 1-sensitive decremental st-shortest paths -\> Directed, Weighted APSP.png>) |
-| 8 | 1-sensitive decremental st-shortest paths | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/8 = 1-sensitive decremental st-shortest paths -\> Negative Triangle Detection.png>) |
-| 8 | 1-sensitive decremental st-shortest paths | Maximum Subarray | ![alt text](<impactful_edges_by_size/8 = 1-sensitive decremental st-shortest paths -\> Maximum Subarray.png>) |
-| 8 | 1-sensitive decremental st-shortest paths | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/8 = 1-sensitive decremental st-shortest paths -\> Undirected, Weighted APSP.png>) |
-| 8 | 1-sensitive decremental st-shortest paths | Metricity | ![alt text](<impactful_edges_by_size/8 = 1-sensitive decremental st-shortest paths -\> Metricity.png>) |
-| 8 | 1-sensitive decremental st-shortest paths | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/8 = 1-sensitive decremental st-shortest paths -\> Betweenness Centrality (BC).png>) |
-| 8 | 2-sensitive decremental st-shortest paths | Matrix Product | ![alt text](<impactful_edges_by_size/8 = 2-sensitive decremental st-shortest paths -\> Matrix Product.png>) |
-| 8 | 2-sensitive decremental st-shortest paths | Negative Triangle Search | ![alt text](<impactful_edges_by_size/8 = 2-sensitive decremental st-shortest paths -\> Negative Triangle Search.png>) |
-| 8 | 2-sensitive decremental st-shortest paths | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/8 = 2-sensitive decremental st-shortest paths -\> Negative Triangle Listing.png>) |
-| 8 | 2-sensitive decremental st-shortest paths | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/8 = 2-sensitive decremental st-shortest paths -\> Minimum Witness Finding.png>) |
-| 8 | 2-sensitive decremental st-shortest paths | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/8 = 2-sensitive decremental st-shortest paths -\> All Pairs Minimum Witness (APMW).png>) |
-| 8 | 2-sensitive decremental st-shortest paths | Directed Radius | ![alt text](<impactful_edges_by_size/8 = 2-sensitive decremental st-shortest paths -\> Directed Radius.png>) |
-| 8 | 2-sensitive decremental st-shortest paths | Undirected Radius | ![alt text](<impactful_edges_by_size/8 = 2-sensitive decremental st-shortest paths -\> Undirected Radius.png>) |
-| 8 | 2-sensitive decremental st-shortest paths | Directed Median | ![alt text](<impactful_edges_by_size/8 = 2-sensitive decremental st-shortest paths -\> Directed Median.png>) |
-| 8 | 2-sensitive decremental st-shortest paths | Undirected Median | ![alt text](<impactful_edges_by_size/8 = 2-sensitive decremental st-shortest paths -\> Undirected Median.png>) |
-| 8 | 2-sensitive decremental st-shortest paths | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/8 = 2-sensitive decremental st-shortest paths -\> Max-Weight k-Clique.png>) |
-| 8 | 1-sensitive decremental diameter | Matrix Product | ![alt text](<impactful_edges_by_size/8 = 1-sensitive decremental diameter -\> Matrix Product.png>) |
-| 8 | 1-sensitive decremental diameter | Negative Triangle Search | ![alt text](<impactful_edges_by_size/8 = 1-sensitive decremental diameter -\> Negative Triangle Search.png>) |
-| 8 | 1-sensitive decremental diameter | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/8 = 1-sensitive decremental diameter -\> Negative Triangle Listing.png>) |
-| 8 | 1-sensitive decremental diameter | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/8 = 1-sensitive decremental diameter -\> Minimum Witness Finding.png>) |
-| 8 | 1-sensitive decremental diameter | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/8 = 1-sensitive decremental diameter -\> All Pairs Minimum Witness (APMW).png>) |
-| 8 | 1-sensitive decremental diameter | Directed Radius | ![alt text](<impactful_edges_by_size/8 = 1-sensitive decremental diameter -\> Directed Radius.png>) |
-| 8 | 1-sensitive decremental diameter | Undirected Radius | ![alt text](<impactful_edges_by_size/8 = 1-sensitive decremental diameter -\> Undirected Radius.png>) |
-| 8 | 1-sensitive decremental diameter | Directed Median | ![alt text](<impactful_edges_by_size/8 = 1-sensitive decremental diameter -\> Directed Median.png>) |
-| 8 | 1-sensitive decremental diameter | Undirected Median | ![alt text](<impactful_edges_by_size/8 = 1-sensitive decremental diameter -\> Undirected Median.png>) |
-| 8 | 1-sensitive decremental diameter | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/8 = 1-sensitive decremental diameter -\> Max-Weight k-Clique.png>) |
-| 8 | 2D Maximum Subarray | Matrix Product | ![alt text](<impactful_edges_by_size/8 = 2D Maximum Subarray -\> Matrix Product.png>) |
-| 8 | 2D Maximum Subarray | Negative Triangle Search | ![alt text](<impactful_edges_by_size/8 = 2D Maximum Subarray -\> Negative Triangle Search.png>) |
-| 8 | 2D Maximum Subarray | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/8 = 2D Maximum Subarray -\> Negative Triangle Listing.png>) |
-| 8 | 2D Maximum Subarray | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/8 = 2D Maximum Subarray -\> Minimum Witness Finding.png>) |
-| 8 | 2D Maximum Subarray | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/8 = 2D Maximum Subarray -\> All Pairs Minimum Witness (APMW).png>) |
-| 8 | 2D Maximum Subarray | Directed Radius | ![alt text](<impactful_edges_by_size/8 = 2D Maximum Subarray -\> Directed Radius.png>) |
-| 8 | 2D Maximum Subarray | Undirected Radius | ![alt text](<impactful_edges_by_size/8 = 2D Maximum Subarray -\> Undirected Radius.png>) |
-| 8 | 2D Maximum Subarray | Directed Median | ![alt text](<impactful_edges_by_size/8 = 2D Maximum Subarray -\> Directed Median.png>) |
-| 8 | 2D Maximum Subarray | Undirected Median | ![alt text](<impactful_edges_by_size/8 = 2D Maximum Subarray -\> Undirected Median.png>) |
-| 8 | 2D Maximum Subarray | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/8 = 2D Maximum Subarray -\> Max-Weight k-Clique.png>) |
-| 7 | Directed, Weighted APSP | Matrix Product | ![alt text](<impactful_edges_by_size/7 = Directed, Weighted APSP -\> Matrix Product.png>) |
-| 7 | Directed, Weighted APSP | Negative Triangle Search | ![alt text](<impactful_edges_by_size/7 = Directed, Weighted APSP -\> Negative Triangle Search.png>) |
-| 7 | Directed, Weighted APSP | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/7 = Directed, Weighted APSP -\> Negative Triangle Listing.png>) |
-| 7 | Directed, Weighted APSP | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/7 = Directed, Weighted APSP -\> Minimum Witness Finding.png>) |
-| 7 | Directed, Weighted APSP | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/7 = Directed, Weighted APSP -\> All Pairs Minimum Witness (APMW).png>) |
-| 7 | Directed, Weighted APSP | Directed Radius | ![alt text](<impactful_edges_by_size/7 = Directed, Weighted APSP -\> Directed Radius.png>) |
-| 7 | Directed, Weighted APSP | Undirected Radius | ![alt text](<impactful_edges_by_size/7 = Directed, Weighted APSP -\> Undirected Radius.png>) |
-| 7 | Directed, Weighted APSP | Directed Median | ![alt text](<impactful_edges_by_size/7 = Directed, Weighted APSP -\> Directed Median.png>) |
-| 7 | Directed, Weighted APSP | Undirected Median | ![alt text](<impactful_edges_by_size/7 = Directed, Weighted APSP -\> Undirected Median.png>) |
-| 7 | Directed, Weighted APSP | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/7 = Directed, Weighted APSP -\> Max-Weight k-Clique.png>) |
-| 7 | Negative Triangle Detection | Matrix Product | ![alt text](<impactful_edges_by_size/7 = Negative Triangle Detection -\> Matrix Product.png>) |
-| 7 | Negative Triangle Detection | Negative Triangle Search | ![alt text](<impactful_edges_by_size/7 = Negative Triangle Detection -\> Negative Triangle Search.png>) |
-| 7 | Negative Triangle Detection | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/7 = Negative Triangle Detection -\> Negative Triangle Listing.png>) |
-| 7 | Negative Triangle Detection | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/7 = Negative Triangle Detection -\> Minimum Witness Finding.png>) |
-| 7 | Negative Triangle Detection | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/7 = Negative Triangle Detection -\> All Pairs Minimum Witness (APMW).png>) |
-| 7 | Negative Triangle Detection | Directed Radius | ![alt text](<impactful_edges_by_size/7 = Negative Triangle Detection -\> Directed Radius.png>) |
-| 7 | Negative Triangle Detection | Undirected Radius | ![alt text](<impactful_edges_by_size/7 = Negative Triangle Detection -\> Undirected Radius.png>) |
-| 7 | Negative Triangle Detection | Directed Median | ![alt text](<impactful_edges_by_size/7 = Negative Triangle Detection -\> Directed Median.png>) |
-| 7 | Negative Triangle Detection | Undirected Median | ![alt text](<impactful_edges_by_size/7 = Negative Triangle Detection -\> Undirected Median.png>) |
-| 7 | Negative Triangle Detection | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/7 = Negative Triangle Detection -\> Max-Weight k-Clique.png>) |
-| 7 | Matrix Product Verification | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Matrix Product Verification -\> Directed, Weighted APSP.png>) |
-| 7 | Matrix Product Verification | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/7 = Matrix Product Verification -\> Negative Triangle Detection.png>) |
-| 7 | Matrix Product Verification | Maximum Subarray | ![alt text](<impactful_edges_by_size/7 = Matrix Product Verification -\> Maximum Subarray.png>) |
-| 7 | Matrix Product Verification | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Matrix Product Verification -\> Undirected, Weighted APSP.png>) |
-| 7 | Matrix Product Verification | Metricity | ![alt text](<impactful_edges_by_size/7 = Matrix Product Verification -\> Metricity.png>) |
-| 7 | Matrix Product Verification | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/7 = Matrix Product Verification -\> Betweenness Centrality (BC).png>) |
-| 7 | Maximum Subarray | Matrix Product | ![alt text](<impactful_edges_by_size/7 = Maximum Subarray -\> Matrix Product.png>) |
-| 7 | Maximum Subarray | Negative Triangle Search | ![alt text](<impactful_edges_by_size/7 = Maximum Subarray -\> Negative Triangle Search.png>) |
-| 7 | Maximum Subarray | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/7 = Maximum Subarray -\> Negative Triangle Listing.png>) |
-| 7 | Maximum Subarray | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/7 = Maximum Subarray -\> Minimum Witness Finding.png>) |
-| 7 | Maximum Subarray | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/7 = Maximum Subarray -\> All Pairs Minimum Witness (APMW).png>) |
-| 7 | Maximum Subarray | Directed Radius | ![alt text](<impactful_edges_by_size/7 = Maximum Subarray -\> Directed Radius.png>) |
-| 7 | Maximum Subarray | Undirected Radius | ![alt text](<impactful_edges_by_size/7 = Maximum Subarray -\> Undirected Radius.png>) |
-| 7 | Maximum Subarray | Directed Median | ![alt text](<impactful_edges_by_size/7 = Maximum Subarray -\> Directed Median.png>) |
-| 7 | Maximum Subarray | Undirected Median | ![alt text](<impactful_edges_by_size/7 = Maximum Subarray -\> Undirected Median.png>) |
-| 7 | Maximum Subarray | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/7 = Maximum Subarray -\> Max-Weight k-Clique.png>) |
-| 7 | Distance Product | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Distance Product -\> Directed, Weighted APSP.png>) |
-| 7 | Distance Product | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/7 = Distance Product -\> Negative Triangle Detection.png>) |
-| 7 | Distance Product | Maximum Subarray | ![alt text](<impactful_edges_by_size/7 = Distance Product -\> Maximum Subarray.png>) |
-| 7 | Distance Product | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Distance Product -\> Undirected, Weighted APSP.png>) |
-| 7 | Distance Product | Metricity | ![alt text](<impactful_edges_by_size/7 = Distance Product -\> Metricity.png>) |
-| 7 | Distance Product | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/7 = Distance Product -\> Betweenness Centrality (BC).png>) |
-| 7 | Undirected, Weighted APSP | Matrix Product | ![alt text](<impactful_edges_by_size/7 = Undirected, Weighted APSP -\> Matrix Product.png>) |
-| 7 | Undirected, Weighted APSP | Negative Triangle Search | ![alt text](<impactful_edges_by_size/7 = Undirected, Weighted APSP -\> Negative Triangle Search.png>) |
-| 7 | Undirected, Weighted APSP | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/7 = Undirected, Weighted APSP -\> Negative Triangle Listing.png>) |
-| 7 | Undirected, Weighted APSP | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/7 = Undirected, Weighted APSP -\> Minimum Witness Finding.png>) |
-| 7 | Undirected, Weighted APSP | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/7 = Undirected, Weighted APSP -\> All Pairs Minimum Witness (APMW).png>) |
-| 7 | Undirected, Weighted APSP | Directed Radius | ![alt text](<impactful_edges_by_size/7 = Undirected, Weighted APSP -\> Directed Radius.png>) |
-| 7 | Undirected, Weighted APSP | Undirected Radius | ![alt text](<impactful_edges_by_size/7 = Undirected, Weighted APSP -\> Undirected Radius.png>) |
-| 7 | Undirected, Weighted APSP | Directed Median | ![alt text](<impactful_edges_by_size/7 = Undirected, Weighted APSP -\> Directed Median.png>) |
-| 7 | Undirected, Weighted APSP | Undirected Median | ![alt text](<impactful_edges_by_size/7 = Undirected, Weighted APSP -\> Undirected Median.png>) |
-| 7 | Undirected, Weighted APSP | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/7 = Undirected, Weighted APSP -\> Max-Weight k-Clique.png>) |
-| 7 | Metricity | Matrix Product | ![alt text](<impactful_edges_by_size/7 = Metricity -\> Matrix Product.png>) |
-| 7 | Metricity | Negative Triangle Search | ![alt text](<impactful_edges_by_size/7 = Metricity -\> Negative Triangle Search.png>) |
-| 7 | Metricity | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/7 = Metricity -\> Negative Triangle Listing.png>) |
-| 7 | Metricity | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/7 = Metricity -\> Minimum Witness Finding.png>) |
-| 7 | Metricity | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/7 = Metricity -\> All Pairs Minimum Witness (APMW).png>) |
-| 7 | Metricity | Directed Radius | ![alt text](<impactful_edges_by_size/7 = Metricity -\> Directed Radius.png>) |
-| 7 | Metricity | Undirected Radius | ![alt text](<impactful_edges_by_size/7 = Metricity -\> Undirected Radius.png>) |
-| 7 | Metricity | Directed Median | ![alt text](<impactful_edges_by_size/7 = Metricity -\> Directed Median.png>) |
-| 7 | Metricity | Undirected Median | ![alt text](<impactful_edges_by_size/7 = Metricity -\> Undirected Median.png>) |
-| 7 | Metricity | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/7 = Metricity -\> Max-Weight k-Clique.png>) |
-| 7 | Shortest Cycle | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Shortest Cycle -\> Directed, Weighted APSP.png>) |
-| 7 | Shortest Cycle | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/7 = Shortest Cycle -\> Negative Triangle Detection.png>) |
-| 7 | Shortest Cycle | Maximum Subarray | ![alt text](<impactful_edges_by_size/7 = Shortest Cycle -\> Maximum Subarray.png>) |
-| 7 | Shortest Cycle | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Shortest Cycle -\> Undirected, Weighted APSP.png>) |
-| 7 | Shortest Cycle | Metricity | ![alt text](<impactful_edges_by_size/7 = Shortest Cycle -\> Metricity.png>) |
-| 7 | Shortest Cycle | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/7 = Shortest Cycle -\> Betweenness Centrality (BC).png>) |
-| 7 | Replacement Paths Problem (RPP) | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Replacement Paths Problem (RPP) -\> Directed, Weighted APSP.png>) |
-| 7 | Replacement Paths Problem (RPP) | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/7 = Replacement Paths Problem (RPP) -\> Negative Triangle Detection.png>) |
-| 7 | Replacement Paths Problem (RPP) | Maximum Subarray | ![alt text](<impactful_edges_by_size/7 = Replacement Paths Problem (RPP) -\> Maximum Subarray.png>) |
-| 7 | Replacement Paths Problem (RPP) | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Replacement Paths Problem (RPP) -\> Undirected, Weighted APSP.png>) |
-| 7 | Replacement Paths Problem (RPP) | Metricity | ![alt text](<impactful_edges_by_size/7 = Replacement Paths Problem (RPP) -\> Metricity.png>) |
-| 7 | Replacement Paths Problem (RPP) | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/7 = Replacement Paths Problem (RPP) -\> Betweenness Centrality (BC).png>) |
-| 7 | Price Query | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Price Query -\> Directed, Weighted APSP.png>) |
-| 7 | Price Query | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/7 = Price Query -\> Negative Triangle Detection.png>) |
-| 7 | Price Query | Maximum Subarray | ![alt text](<impactful_edges_by_size/7 = Price Query -\> Maximum Subarray.png>) |
-| 7 | Price Query | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Price Query -\> Undirected, Weighted APSP.png>) |
-| 7 | Price Query | Metricity | ![alt text](<impactful_edges_by_size/7 = Price Query -\> Metricity.png>) |
-| 7 | Price Query | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/7 = Price Query -\> Betweenness Centrality (BC).png>) |
-| 7 | Betweenness Centrality (BC) | Matrix Product | ![alt text](<impactful_edges_by_size/7 = Betweenness Centrality (BC) -\> Matrix Product.png>) |
-| 7 | Betweenness Centrality (BC) | Negative Triangle Search | ![alt text](<impactful_edges_by_size/7 = Betweenness Centrality (BC) -\> Negative Triangle Search.png>) |
-| 7 | Betweenness Centrality (BC) | Negative Triangle Listing | ![alt text](<impactful_edges_by_size/7 = Betweenness Centrality (BC) -\> Negative Triangle Listing.png>) |
-| 7 | Betweenness Centrality (BC) | Minimum Witness Finding | ![alt text](<impactful_edges_by_size/7 = Betweenness Centrality (BC) -\> Minimum Witness Finding.png>) |
-| 7 | Betweenness Centrality (BC) | All Pairs Minimum Witness (APMW) | ![alt text](<impactful_edges_by_size/7 = Betweenness Centrality (BC) -\> All Pairs Minimum Witness (APMW).png>) |
-| 7 | Betweenness Centrality (BC) | Directed Radius | ![alt text](<impactful_edges_by_size/7 = Betweenness Centrality (BC) -\> Directed Radius.png>) |
-| 7 | Betweenness Centrality (BC) | Undirected Radius | ![alt text](<impactful_edges_by_size/7 = Betweenness Centrality (BC) -\> Undirected Radius.png>) |
-| 7 | Betweenness Centrality (BC) | Directed Median | ![alt text](<impactful_edges_by_size/7 = Betweenness Centrality (BC) -\> Directed Median.png>) |
-| 7 | Betweenness Centrality (BC) | Undirected Median | ![alt text](<impactful_edges_by_size/7 = Betweenness Centrality (BC) -\> Undirected Median.png>) |
-| 7 | Betweenness Centrality (BC) | Max-Weight k-Clique | ![alt text](<impactful_edges_by_size/7 = Betweenness Centrality (BC) -\> Max-Weight k-Clique.png>) |
-| 7 | Radius | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Radius -\> Directed, Weighted APSP.png>) |
-| 7 | Radius | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/7 = Radius -\> Negative Triangle Detection.png>) |
-| 7 | Radius | Maximum Subarray | ![alt text](<impactful_edges_by_size/7 = Radius -\> Maximum Subarray.png>) |
-| 7 | Radius | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Radius -\> Undirected, Weighted APSP.png>) |
-| 7 | Radius | Metricity | ![alt text](<impactful_edges_by_size/7 = Radius -\> Metricity.png>) |
-| 7 | Radius | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/7 = Radius -\> Betweenness Centrality (BC).png>) |
-| 7 | Median | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Median -\> Directed, Weighted APSP.png>) |
-| 7 | Median | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/7 = Median -\> Negative Triangle Detection.png>) |
-| 7 | Median | Maximum Subarray | ![alt text](<impactful_edges_by_size/7 = Median -\> Maximum Subarray.png>) |
-| 7 | Median | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Median -\> Undirected, Weighted APSP.png>) |
-| 7 | Median | Metricity | ![alt text](<impactful_edges_by_size/7 = Median -\> Metricity.png>) |
-| 7 | Median | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/7 = Median -\> Betweenness Centrality (BC).png>) |
-| 7 | All-Nodes Median Parity | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = All-Nodes Median Parity -\> Directed, Weighted APSP.png>) |
-| 7 | All-Nodes Median Parity | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/7 = All-Nodes Median Parity -\> Negative Triangle Detection.png>) |
-| 7 | All-Nodes Median Parity | Maximum Subarray | ![alt text](<impactful_edges_by_size/7 = All-Nodes Median Parity -\> Maximum Subarray.png>) |
-| 7 | All-Nodes Median Parity | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = All-Nodes Median Parity -\> Undirected, Weighted APSP.png>) |
-| 7 | All-Nodes Median Parity | Metricity | ![alt text](<impactful_edges_by_size/7 = All-Nodes Median Parity -\> Metricity.png>) |
-| 7 | All-Nodes Median Parity | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/7 = All-Nodes Median Parity -\> Betweenness Centrality (BC).png>) |
-| 7 | All-Nodes Positive Betweenness Centrality | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = All-Nodes Positive Betweenness Centrality -\> Directed, Weighted APSP.png>) |
-| 7 | All-Nodes Positive Betweenness Centrality | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/7 = All-Nodes Positive Betweenness Centrality -\> Negative Triangle Detection.png>) |
-| 7 | All-Nodes Positive Betweenness Centrality | Maximum Subarray | ![alt text](<impactful_edges_by_size/7 = All-Nodes Positive Betweenness Centrality -\> Maximum Subarray.png>) |
-| 7 | All-Nodes Positive Betweenness Centrality | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = All-Nodes Positive Betweenness Centrality -\> Undirected, Weighted APSP.png>) |
-| 7 | All-Nodes Positive Betweenness Centrality | Metricity | ![alt text](<impactful_edges_by_size/7 = All-Nodes Positive Betweenness Centrality -\> Metricity.png>) |
-| 7 | All-Nodes Positive Betweenness Centrality | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/7 = All-Nodes Positive Betweenness Centrality -\> Betweenness Centrality (BC).png>) |
-| 7 | Directed All-Nodes Positive Betweenness Centrality | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Directed All-Nodes Positive Betweenness Centrality -\> Directed, Weighted APSP.png>) |
-| 7 | Directed All-Nodes Positive Betweenness Centrality | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/7 = Directed All-Nodes Positive Betweenness Centrality -\> Negative Triangle Detection.png>) |
-| 7 | Directed All-Nodes Positive Betweenness Centrality | Maximum Subarray | ![alt text](<impactful_edges_by_size/7 = Directed All-Nodes Positive Betweenness Centrality -\> Maximum Subarray.png>) |
-| 7 | Directed All-Nodes Positive Betweenness Centrality | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Directed All-Nodes Positive Betweenness Centrality -\> Undirected, Weighted APSP.png>) |
-| 7 | Directed All-Nodes Positive Betweenness Centrality | Metricity | ![alt text](<impactful_edges_by_size/7 = Directed All-Nodes Positive Betweenness Centrality -\> Metricity.png>) |
-| 7 | Directed All-Nodes Positive Betweenness Centrality | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/7 = Directed All-Nodes Positive Betweenness Centrality -\> Betweenness Centrality (BC).png>) |
-| 7 | Undirected All-Nodes Positive Betweenness Centrality | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Undirected All-Nodes Positive Betweenness Centrality -\> Directed, Weighted APSP.png>) |
-| 7 | Undirected All-Nodes Positive Betweenness Centrality | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/7 = Undirected All-Nodes Positive Betweenness Centrality -\> Negative Triangle Detection.png>) |
-| 7 | Undirected All-Nodes Positive Betweenness Centrality | Maximum Subarray | ![alt text](<impactful_edges_by_size/7 = Undirected All-Nodes Positive Betweenness Centrality -\> Maximum Subarray.png>) |
-| 7 | Undirected All-Nodes Positive Betweenness Centrality | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Undirected All-Nodes Positive Betweenness Centrality -\> Undirected, Weighted APSP.png>) |
-| 7 | Undirected All-Nodes Positive Betweenness Centrality | Metricity | ![alt text](<impactful_edges_by_size/7 = Undirected All-Nodes Positive Betweenness Centrality -\> Metricity.png>) |
-| 7 | Undirected All-Nodes Positive Betweenness Centrality | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/7 = Undirected All-Nodes Positive Betweenness Centrality -\> Betweenness Centrality (BC).png>) |
-| 7 | Directed All-Nodes Reach Centrality | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Directed All-Nodes Reach Centrality -\> Directed, Weighted APSP.png>) |
-| 7 | Directed All-Nodes Reach Centrality | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/7 = Directed All-Nodes Reach Centrality -\> Negative Triangle Detection.png>) |
-| 7 | Directed All-Nodes Reach Centrality | Maximum Subarray | ![alt text](<impactful_edges_by_size/7 = Directed All-Nodes Reach Centrality -\> Maximum Subarray.png>) |
-| 7 | Directed All-Nodes Reach Centrality | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Directed All-Nodes Reach Centrality -\> Undirected, Weighted APSP.png>) |
-| 7 | Directed All-Nodes Reach Centrality | Metricity | ![alt text](<impactful_edges_by_size/7 = Directed All-Nodes Reach Centrality -\> Metricity.png>) |
-| 7 | Directed All-Nodes Reach Centrality | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/7 = Directed All-Nodes Reach Centrality -\> Betweenness Centrality (BC).png>) |
-| 7 | Undirected All-Nodes Reach Centrality | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Undirected All-Nodes Reach Centrality -\> Directed, Weighted APSP.png>) |
-| 7 | Undirected All-Nodes Reach Centrality | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/7 = Undirected All-Nodes Reach Centrality -\> Negative Triangle Detection.png>) |
-| 7 | Undirected All-Nodes Reach Centrality | Maximum Subarray | ![alt text](<impactful_edges_by_size/7 = Undirected All-Nodes Reach Centrality -\> Maximum Subarray.png>) |
-| 7 | Undirected All-Nodes Reach Centrality | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Undirected All-Nodes Reach Centrality -\> Undirected, Weighted APSP.png>) |
-| 7 | Undirected All-Nodes Reach Centrality | Metricity | ![alt text](<impactful_edges_by_size/7 = Undirected All-Nodes Reach Centrality -\> Metricity.png>) |
-| 7 | Undirected All-Nodes Reach Centrality | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/7 = Undirected All-Nodes Reach Centrality -\> Betweenness Centrality (BC).png>) |
-| 7 | Dynamic Bipartite Maximum-Weight Matching | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Dynamic Bipartite Maximum-Weight Matching -\> Directed, Weighted APSP.png>) |
-| 7 | Dynamic Bipartite Maximum-Weight Matching | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/7 = Dynamic Bipartite Maximum-Weight Matching -\> Negative Triangle Detection.png>) |
-| 7 | Dynamic Bipartite Maximum-Weight Matching | Maximum Subarray | ![alt text](<impactful_edges_by_size/7 = Dynamic Bipartite Maximum-Weight Matching -\> Maximum Subarray.png>) |
-| 7 | Dynamic Bipartite Maximum-Weight Matching | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Dynamic Bipartite Maximum-Weight Matching -\> Undirected, Weighted APSP.png>) |
-| 7 | Dynamic Bipartite Maximum-Weight Matching | Metricity | ![alt text](<impactful_edges_by_size/7 = Dynamic Bipartite Maximum-Weight Matching -\> Metricity.png>) |
-| 7 | Dynamic Bipartite Maximum-Weight Matching | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/7 = Dynamic Bipartite Maximum-Weight Matching -\> Betweenness Centrality (BC).png>) |
-| 7 | Dynamic $st$-Shortest Path | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Dynamic $st$-Shortest Path -\> Directed, Weighted APSP.png>) |
-| 7 | Dynamic $st$-Shortest Path | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/7 = Dynamic $st$-Shortest Path -\> Negative Triangle Detection.png>) |
-| 7 | Dynamic $st$-Shortest Path | Maximum Subarray | ![alt text](<impactful_edges_by_size/7 = Dynamic $st$-Shortest Path -\> Maximum Subarray.png>) |
-| 7 | Dynamic $st$-Shortest Path | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = Dynamic $st$-Shortest Path -\> Undirected, Weighted APSP.png>) |
-| 7 | Dynamic $st$-Shortest Path | Metricity | ![alt text](<impactful_edges_by_size/7 = Dynamic $st$-Shortest Path -\> Metricity.png>) |
-| 7 | Dynamic $st$-Shortest Path | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/7 = Dynamic $st$-Shortest Path -\> Betweenness Centrality (BC).png>) |
-| 7 | 2-sensitive decremental st-shortest paths | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = 2-sensitive decremental st-shortest paths -\> Directed, Weighted APSP.png>) |
-| 7 | 2-sensitive decremental st-shortest paths | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/7 = 2-sensitive decremental st-shortest paths -\> Negative Triangle Detection.png>) |
-| 7 | 2-sensitive decremental st-shortest paths | Maximum Subarray | ![alt text](<impactful_edges_by_size/7 = 2-sensitive decremental st-shortest paths -\> Maximum Subarray.png>) |
-| 7 | 2-sensitive decremental st-shortest paths | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = 2-sensitive decremental st-shortest paths -\> Undirected, Weighted APSP.png>) |
-| 7 | 2-sensitive decremental st-shortest paths | Metricity | ![alt text](<impactful_edges_by_size/7 = 2-sensitive decremental st-shortest paths -\> Metricity.png>) |
-| 7 | 2-sensitive decremental st-shortest paths | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/7 = 2-sensitive decremental st-shortest paths -\> Betweenness Centrality (BC).png>) |
-| 7 | 1-sensitive decremental diameter | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = 1-sensitive decremental diameter -\> Directed, Weighted APSP.png>) |
-| 7 | 1-sensitive decremental diameter | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/7 = 1-sensitive decremental diameter -\> Negative Triangle Detection.png>) |
-| 7 | 1-sensitive decremental diameter | Maximum Subarray | ![alt text](<impactful_edges_by_size/7 = 1-sensitive decremental diameter -\> Maximum Subarray.png>) |
-| 7 | 1-sensitive decremental diameter | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = 1-sensitive decremental diameter -\> Undirected, Weighted APSP.png>) |
-| 7 | 1-sensitive decremental diameter | Metricity | ![alt text](<impactful_edges_by_size/7 = 1-sensitive decremental diameter -\> Metricity.png>) |
-| 7 | 1-sensitive decremental diameter | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/7 = 1-sensitive decremental diameter -\> Betweenness Centrality (BC).png>) |
-| 7 | 2D Maximum Subarray | Directed, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = 2D Maximum Subarray -\> Directed, Weighted APSP.png>) |
-| 7 | 2D Maximum Subarray | Negative Triangle Detection | ![alt text](<impactful_edges_by_size/7 = 2D Maximum Subarray -\> Negative Triangle Detection.png>) |
-| 7 | 2D Maximum Subarray | Maximum Subarray | ![alt text](<impactful_edges_by_size/7 = 2D Maximum Subarray -\> Maximum Subarray.png>) |
-| 7 | 2D Maximum Subarray | Undirected, Weighted APSP | ![alt text](<impactful_edges_by_size/7 = 2D Maximum Subarray -\> Undirected, Weighted APSP.png>) |
-| 7 | 2D Maximum Subarray | Metricity | ![alt text](<impactful_edges_by_size/7 = 2D Maximum Subarray -\> Metricity.png>) |
-| 7 | 2D Maximum Subarray | Betweenness Centrality (BC) | ![alt text](<impactful_edges_by_size/7 = 2D Maximum Subarray -\> Betweenness Centrality (BC).png>) |
-<>:5: SyntaxWarning: invalid escape sequence '\>'
-<>:5: SyntaxWarning: invalid escape sequence '\>'
-/var/folders/6k/rf2_mhpd7790drjk7smpzn2r0000gn/T/ipykernel_3140/1608622247.py:5: SyntaxWarning: invalid escape sequence '\>'
-  print(f'| {i["size"]} | {i["from"]} | {i["to"]} | ![alt text](<impactful_edges_by_size/{i["size"]} = {i["from"]} -\> {i["to"]}.png>) |')
+| 12 | Reach Centrality | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/12 = Reach Centrality -> k-Clique.png">Graph</a> |
+| 12 | Diameter | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/12 = Diameter -> k-Clique.png">Graph</a> |
+| 12 | Positive Betweenness Centrality | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/12 = Positive Betweenness Centrality -> k-Clique.png">Graph</a> |
+| 12 | Approximate Betweenness Centrality | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/12 = Approximate Betweenness Centrality -> k-Clique.png">Graph</a> |
+| 11 | Reach Centrality | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Reach Centrality -> Matrix Product.png">Graph</a> |
+| 11 | Reach Centrality | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Reach Centrality -> Negative Triangle Search.png">Graph</a> |
+| 11 | Reach Centrality | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Reach Centrality -> Negative Triangle Listing.png">Graph</a> |
+| 11 | Reach Centrality | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Reach Centrality -> Minimum Witness Finding.png">Graph</a> |
+| 11 | Reach Centrality | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Reach Centrality -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 11 | Reach Centrality | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Reach Centrality -> Directed Radius.png">Graph</a> |
+| 11 | Reach Centrality | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Reach Centrality -> Undirected Radius.png">Graph</a> |
+| 11 | Reach Centrality | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Reach Centrality -> Directed Median.png">Graph</a> |
+| 11 | Reach Centrality | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Reach Centrality -> Undirected Median.png">Graph</a> |
+| 11 | Reach Centrality | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Reach Centrality -> Max-Weight k-Clique.png">Graph</a> |
+| 11 | Diameter | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Diameter -> Matrix Product.png">Graph</a> |
+| 11 | Diameter | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Diameter -> Negative Triangle Search.png">Graph</a> |
+| 11 | Diameter | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Diameter -> Negative Triangle Listing.png">Graph</a> |
+| 11 | Diameter | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Diameter -> Minimum Witness Finding.png">Graph</a> |
+| 11 | Diameter | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Diameter -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 11 | Diameter | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Diameter -> Directed Radius.png">Graph</a> |
+| 11 | Diameter | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Diameter -> Undirected Radius.png">Graph</a> |
+| 11 | Diameter | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Diameter -> Directed Median.png">Graph</a> |
+| 11 | Diameter | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Diameter -> Undirected Median.png">Graph</a> |
+| 11 | Diameter | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Diameter -> Max-Weight k-Clique.png">Graph</a> |
+| 11 | Positive Betweenness Centrality | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Positive Betweenness Centrality -> Matrix Product.png">Graph</a> |
+| 11 | Positive Betweenness Centrality | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Positive Betweenness Centrality -> Negative Triangle Search.png">Graph</a> |
+| 11 | Positive Betweenness Centrality | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Positive Betweenness Centrality -> Negative Triangle Listing.png">Graph</a> |
+| 11 | Positive Betweenness Centrality | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Positive Betweenness Centrality -> Minimum Witness Finding.png">Graph</a> |
+| 11 | Positive Betweenness Centrality | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Positive Betweenness Centrality -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 11 | Positive Betweenness Centrality | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Positive Betweenness Centrality -> Directed Radius.png">Graph</a> |
+| 11 | Positive Betweenness Centrality | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Positive Betweenness Centrality -> Undirected Radius.png">Graph</a> |
+| 11 | Positive Betweenness Centrality | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Positive Betweenness Centrality -> Directed Median.png">Graph</a> |
+| 11 | Positive Betweenness Centrality | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Positive Betweenness Centrality -> Undirected Median.png">Graph</a> |
+| 11 | Positive Betweenness Centrality | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Positive Betweenness Centrality -> Max-Weight k-Clique.png">Graph</a> |
+| 11 | Approximate Betweenness Centrality | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Approximate Betweenness Centrality -> Matrix Product.png">Graph</a> |
+| 11 | Approximate Betweenness Centrality | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Approximate Betweenness Centrality -> Negative Triangle Search.png">Graph</a> |
+| 11 | Approximate Betweenness Centrality | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Approximate Betweenness Centrality -> Negative Triangle Listing.png">Graph</a> |
+| 11 | Approximate Betweenness Centrality | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Approximate Betweenness Centrality -> Minimum Witness Finding.png">Graph</a> |
+| 11 | Approximate Betweenness Centrality | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Approximate Betweenness Centrality -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 11 | Approximate Betweenness Centrality | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Approximate Betweenness Centrality -> Directed Radius.png">Graph</a> |
+| 11 | Approximate Betweenness Centrality | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Approximate Betweenness Centrality -> Undirected Radius.png">Graph</a> |
+| 11 | Approximate Betweenness Centrality | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Approximate Betweenness Centrality -> Directed Median.png">Graph</a> |
+| 11 | Approximate Betweenness Centrality | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Approximate Betweenness Centrality -> Undirected Median.png">Graph</a> |
+| 11 | Approximate Betweenness Centrality | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/11 = Approximate Betweenness Centrality -> Max-Weight k-Clique.png">Graph</a> |
+| 10 | Second Shortest Simple Path | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Second Shortest Simple Path -> k-Clique.png">Graph</a> |
+| 10 | Reach Centrality | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Reach Centrality -> Directed, Weighted APSP.png">Graph</a> |
+| 10 | Reach Centrality | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Reach Centrality -> Negative Triangle Detection.png">Graph</a> |
+| 10 | Reach Centrality | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Reach Centrality -> Maximum Subarray.png">Graph</a> |
+| 10 | Reach Centrality | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Reach Centrality -> Undirected, Weighted APSP.png">Graph</a> |
+| 10 | Reach Centrality | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Reach Centrality -> Metricity.png">Graph</a> |
+| 10 | Reach Centrality | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Reach Centrality -> Betweenness Centrality (BC).png">Graph</a> |
+| 10 | Diameter | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Diameter -> Directed, Weighted APSP.png">Graph</a> |
+| 10 | Diameter | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Diameter -> Negative Triangle Detection.png">Graph</a> |
+| 10 | Diameter | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Diameter -> Maximum Subarray.png">Graph</a> |
+| 10 | Diameter | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Diameter -> Undirected, Weighted APSP.png">Graph</a> |
+| 10 | Diameter | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Diameter -> Metricity.png">Graph</a> |
+| 10 | Diameter | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Diameter -> Betweenness Centrality (BC).png">Graph</a> |
+| 10 | Positive Betweenness Centrality | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Positive Betweenness Centrality -> Directed, Weighted APSP.png">Graph</a> |
+| 10 | Positive Betweenness Centrality | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Positive Betweenness Centrality -> Negative Triangle Detection.png">Graph</a> |
+| 10 | Positive Betweenness Centrality | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Positive Betweenness Centrality -> Maximum Subarray.png">Graph</a> |
+| 10 | Positive Betweenness Centrality | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Positive Betweenness Centrality -> Undirected, Weighted APSP.png">Graph</a> |
+| 10 | Positive Betweenness Centrality | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Positive Betweenness Centrality -> Metricity.png">Graph</a> |
+| 10 | Positive Betweenness Centrality | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Positive Betweenness Centrality -> Betweenness Centrality (BC).png">Graph</a> |
+| 10 | Approximate Betweenness Centrality | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Approximate Betweenness Centrality -> Directed, Weighted APSP.png">Graph</a> |
+| 10 | Approximate Betweenness Centrality | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Approximate Betweenness Centrality -> Negative Triangle Detection.png">Graph</a> |
+| 10 | Approximate Betweenness Centrality | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Approximate Betweenness Centrality -> Maximum Subarray.png">Graph</a> |
+| 10 | Approximate Betweenness Centrality | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Approximate Betweenness Centrality -> Undirected, Weighted APSP.png">Graph</a> |
+| 10 | Approximate Betweenness Centrality | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Approximate Betweenness Centrality -> Metricity.png">Graph</a> |
+| 10 | Approximate Betweenness Centrality | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = Approximate Betweenness Centrality -> Betweenness Centrality (BC).png">Graph</a> |
+| 10 | 1-sensitive decremental st-shortest paths | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/10 = 1-sensitive decremental st-shortest paths -> k-Clique.png">Graph</a> |
+| 9 | Triangle Measure | 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Triangle Measure -> 3SUM.png">Graph</a> |
+| 9 | Triangle Measure | 3SUM' | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Triangle Measure -> 3SUM'.png">Graph</a> |
+| 9 | Triangle Measure | GeomBase | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Triangle Measure -> GeomBase.png">Graph</a> |
+| 9 | Triangle Measure | All-Integers 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Triangle Measure -> All-Integers 3SUM.png">Graph</a> |
+| 9 | 3D Motion Planning | 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = 3D Motion Planning -> 3SUM.png">Graph</a> |
+| 9 | 3D Motion Planning | 3SUM' | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = 3D Motion Planning -> 3SUM'.png">Graph</a> |
+| 9 | 3D Motion Planning | GeomBase | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = 3D Motion Planning -> GeomBase.png">Graph</a> |
+| 9 | 3D Motion Planning | All-Integers 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = 3D Motion Planning -> All-Integers 3SUM.png">Graph</a> |
+| 9 | Matrix Product Verification | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Matrix Product Verification -> k-Clique.png">Graph</a> |
+| 9 | Distance Product | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Distance Product -> k-Clique.png">Graph</a> |
+| 9 | Shortest Cycle | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Shortest Cycle -> k-Clique.png">Graph</a> |
+| 9 | Second Shortest Simple Path | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Second Shortest Simple Path -> Matrix Product.png">Graph</a> |
+| 9 | Second Shortest Simple Path | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Second Shortest Simple Path -> Negative Triangle Search.png">Graph</a> |
+| 9 | Second Shortest Simple Path | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Second Shortest Simple Path -> Negative Triangle Listing.png">Graph</a> |
+| 9 | Second Shortest Simple Path | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Second Shortest Simple Path -> Minimum Witness Finding.png">Graph</a> |
+| 9 | Second Shortest Simple Path | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Second Shortest Simple Path -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 9 | Second Shortest Simple Path | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Second Shortest Simple Path -> Directed Radius.png">Graph</a> |
+| 9 | Second Shortest Simple Path | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Second Shortest Simple Path -> Undirected Radius.png">Graph</a> |
+| 9 | Second Shortest Simple Path | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Second Shortest Simple Path -> Directed Median.png">Graph</a> |
+| 9 | Second Shortest Simple Path | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Second Shortest Simple Path -> Undirected Median.png">Graph</a> |
+| 9 | Second Shortest Simple Path | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Second Shortest Simple Path -> Max-Weight k-Clique.png">Graph</a> |
+| 9 | Replacement Paths Problem (RPP) | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Replacement Paths Problem (RPP) -> k-Clique.png">Graph</a> |
+| 9 | Price Query | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Price Query -> k-Clique.png">Graph</a> |
+| 9 | Radius | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Radius -> k-Clique.png">Graph</a> |
+| 9 | Median | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Median -> k-Clique.png">Graph</a> |
+| 9 | All-Nodes Median Parity | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = All-Nodes Median Parity -> k-Clique.png">Graph</a> |
+| 9 | All-Nodes Positive Betweenness Centrality | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = All-Nodes Positive Betweenness Centrality -> k-Clique.png">Graph</a> |
+| 9 | Directed All-Nodes Positive Betweenness Centrality | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Directed All-Nodes Positive Betweenness Centrality -> k-Clique.png">Graph</a> |
+| 9 | Undirected All-Nodes Positive Betweenness Centrality | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Undirected All-Nodes Positive Betweenness Centrality -> k-Clique.png">Graph</a> |
+| 9 | Directed All-Nodes Reach Centrality | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Directed All-Nodes Reach Centrality -> k-Clique.png">Graph</a> |
+| 9 | Undirected All-Nodes Reach Centrality | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Undirected All-Nodes Reach Centrality -> k-Clique.png">Graph</a> |
+| 9 | Dynamic Bipartite Maximum-Weight Matching | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Dynamic Bipartite Maximum-Weight Matching -> k-Clique.png">Graph</a> |
+| 9 | Dynamic $st$-Shortest Path | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = Dynamic $st$-Shortest Path -> k-Clique.png">Graph</a> |
+| 9 | 1-sensitive decremental st-shortest paths | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = 1-sensitive decremental st-shortest paths -> Matrix Product.png">Graph</a> |
+| 9 | 1-sensitive decremental st-shortest paths | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = 1-sensitive decremental st-shortest paths -> Negative Triangle Search.png">Graph</a> |
+| 9 | 1-sensitive decremental st-shortest paths | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = 1-sensitive decremental st-shortest paths -> Negative Triangle Listing.png">Graph</a> |
+| 9 | 1-sensitive decremental st-shortest paths | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = 1-sensitive decremental st-shortest paths -> Minimum Witness Finding.png">Graph</a> |
+| 9 | 1-sensitive decremental st-shortest paths | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = 1-sensitive decremental st-shortest paths -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 9 | 1-sensitive decremental st-shortest paths | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = 1-sensitive decremental st-shortest paths -> Directed Radius.png">Graph</a> |
+| 9 | 1-sensitive decremental st-shortest paths | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = 1-sensitive decremental st-shortest paths -> Undirected Radius.png">Graph</a> |
+| 9 | 1-sensitive decremental st-shortest paths | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = 1-sensitive decremental st-shortest paths -> Directed Median.png">Graph</a> |
+| 9 | 1-sensitive decremental st-shortest paths | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = 1-sensitive decremental st-shortest paths -> Undirected Median.png">Graph</a> |
+| 9 | 1-sensitive decremental st-shortest paths | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = 1-sensitive decremental st-shortest paths -> Max-Weight k-Clique.png">Graph</a> |
+| 9 | 2-sensitive decremental st-shortest paths | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = 2-sensitive decremental st-shortest paths -> k-Clique.png">Graph</a> |
+| 9 | 1-sensitive decremental diameter | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = 1-sensitive decremental diameter -> k-Clique.png">Graph</a> |
+| 9 | 2D Maximum Subarray | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/9 = 2D Maximum Subarray -> k-Clique.png">Graph</a> |
+| 8 | Triangles Cover Triangle | 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Triangles Cover Triangle -> 3SUM.png">Graph</a> |
+| 8 | Triangles Cover Triangle | 3SUM' | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Triangles Cover Triangle -> 3SUM'.png">Graph</a> |
+| 8 | Triangles Cover Triangle | GeomBase | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Triangles Cover Triangle -> GeomBase.png">Graph</a> |
+| 8 | Triangles Cover Triangle | All-Integers 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Triangles Cover Triangle -> All-Integers 3SUM.png">Graph</a> |
+| 8 | Hole in Union | 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Hole in Union -> 3SUM.png">Graph</a> |
+| 8 | Hole in Union | 3SUM' | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Hole in Union -> 3SUM'.png">Graph</a> |
+| 8 | Hole in Union | GeomBase | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Hole in Union -> GeomBase.png">Graph</a> |
+| 8 | Hole in Union | All-Integers 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Hole in Union -> All-Integers 3SUM.png">Graph</a> |
+| 8 | Visible Triangle | 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Visible Triangle -> 3SUM.png">Graph</a> |
+| 8 | Visible Triangle | 3SUM' | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Visible Triangle -> 3SUM'.png">Graph</a> |
+| 8 | Visible Triangle | GeomBase | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Visible Triangle -> GeomBase.png">Graph</a> |
+| 8 | Visible Triangle | All-Integers 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Visible Triangle -> All-Integers 3SUM.png">Graph</a> |
+| 8 | Directed, Weighted APSP | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Directed, Weighted APSP -> k-Clique.png">Graph</a> |
+| 8 | Negative Triangle Detection | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Negative Triangle Detection -> k-Clique.png">Graph</a> |
+| 8 | Matrix Product Verification | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Matrix Product Verification -> Matrix Product.png">Graph</a> |
+| 8 | Matrix Product Verification | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Matrix Product Verification -> Negative Triangle Search.png">Graph</a> |
+| 8 | Matrix Product Verification | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Matrix Product Verification -> Negative Triangle Listing.png">Graph</a> |
+| 8 | Matrix Product Verification | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Matrix Product Verification -> Minimum Witness Finding.png">Graph</a> |
+| 8 | Matrix Product Verification | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Matrix Product Verification -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 8 | Matrix Product Verification | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Matrix Product Verification -> Directed Radius.png">Graph</a> |
+| 8 | Matrix Product Verification | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Matrix Product Verification -> Undirected Radius.png">Graph</a> |
+| 8 | Matrix Product Verification | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Matrix Product Verification -> Directed Median.png">Graph</a> |
+| 8 | Matrix Product Verification | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Matrix Product Verification -> Undirected Median.png">Graph</a> |
+| 8 | Matrix Product Verification | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Matrix Product Verification -> Max-Weight k-Clique.png">Graph</a> |
+| 8 | Maximum Subarray | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Maximum Subarray -> k-Clique.png">Graph</a> |
+| 8 | Distance Product | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Distance Product -> Matrix Product.png">Graph</a> |
+| 8 | Distance Product | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Distance Product -> Negative Triangle Search.png">Graph</a> |
+| 8 | Distance Product | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Distance Product -> Negative Triangle Listing.png">Graph</a> |
+| 8 | Distance Product | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Distance Product -> Minimum Witness Finding.png">Graph</a> |
+| 8 | Distance Product | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Distance Product -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 8 | Distance Product | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Distance Product -> Directed Radius.png">Graph</a> |
+| 8 | Distance Product | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Distance Product -> Undirected Radius.png">Graph</a> |
+| 8 | Distance Product | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Distance Product -> Directed Median.png">Graph</a> |
+| 8 | Distance Product | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Distance Product -> Undirected Median.png">Graph</a> |
+| 8 | Distance Product | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Distance Product -> Max-Weight k-Clique.png">Graph</a> |
+| 8 | Undirected, Weighted APSP | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Undirected, Weighted APSP -> k-Clique.png">Graph</a> |
+| 8 | Metricity | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Metricity -> k-Clique.png">Graph</a> |
+| 8 | Shortest Cycle | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Shortest Cycle -> Matrix Product.png">Graph</a> |
+| 8 | Shortest Cycle | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Shortest Cycle -> Negative Triangle Search.png">Graph</a> |
+| 8 | Shortest Cycle | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Shortest Cycle -> Negative Triangle Listing.png">Graph</a> |
+| 8 | Shortest Cycle | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Shortest Cycle -> Minimum Witness Finding.png">Graph</a> |
+| 8 | Shortest Cycle | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Shortest Cycle -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 8 | Shortest Cycle | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Shortest Cycle -> Directed Radius.png">Graph</a> |
+| 8 | Shortest Cycle | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Shortest Cycle -> Undirected Radius.png">Graph</a> |
+| 8 | Shortest Cycle | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Shortest Cycle -> Directed Median.png">Graph</a> |
+| 8 | Shortest Cycle | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Shortest Cycle -> Undirected Median.png">Graph</a> |
+| 8 | Shortest Cycle | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Shortest Cycle -> Max-Weight k-Clique.png">Graph</a> |
+| 8 | Second Shortest Simple Path | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Second Shortest Simple Path -> Directed, Weighted APSP.png">Graph</a> |
+| 8 | Second Shortest Simple Path | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Second Shortest Simple Path -> Negative Triangle Detection.png">Graph</a> |
+| 8 | Second Shortest Simple Path | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Second Shortest Simple Path -> Maximum Subarray.png">Graph</a> |
+| 8 | Second Shortest Simple Path | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Second Shortest Simple Path -> Undirected, Weighted APSP.png">Graph</a> |
+| 8 | Second Shortest Simple Path | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Second Shortest Simple Path -> Metricity.png">Graph</a> |
+| 8 | Second Shortest Simple Path | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Second Shortest Simple Path -> Betweenness Centrality (BC).png">Graph</a> |
+| 8 | Replacement Paths Problem (RPP) | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Replacement Paths Problem (RPP) -> Matrix Product.png">Graph</a> |
+| 8 | Replacement Paths Problem (RPP) | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Replacement Paths Problem (RPP) -> Negative Triangle Search.png">Graph</a> |
+| 8 | Replacement Paths Problem (RPP) | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Replacement Paths Problem (RPP) -> Negative Triangle Listing.png">Graph</a> |
+| 8 | Replacement Paths Problem (RPP) | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Replacement Paths Problem (RPP) -> Minimum Witness Finding.png">Graph</a> |
+| 8 | Replacement Paths Problem (RPP) | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Replacement Paths Problem (RPP) -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 8 | Replacement Paths Problem (RPP) | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Replacement Paths Problem (RPP) -> Directed Radius.png">Graph</a> |
+| 8 | Replacement Paths Problem (RPP) | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Replacement Paths Problem (RPP) -> Undirected Radius.png">Graph</a> |
+| 8 | Replacement Paths Problem (RPP) | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Replacement Paths Problem (RPP) -> Directed Median.png">Graph</a> |
+| 8 | Replacement Paths Problem (RPP) | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Replacement Paths Problem (RPP) -> Undirected Median.png">Graph</a> |
+| 8 | Replacement Paths Problem (RPP) | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Replacement Paths Problem (RPP) -> Max-Weight k-Clique.png">Graph</a> |
+| 8 | Price Query | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Price Query -> Matrix Product.png">Graph</a> |
+| 8 | Price Query | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Price Query -> Negative Triangle Search.png">Graph</a> |
+| 8 | Price Query | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Price Query -> Negative Triangle Listing.png">Graph</a> |
+| 8 | Price Query | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Price Query -> Minimum Witness Finding.png">Graph</a> |
+| 8 | Price Query | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Price Query -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 8 | Price Query | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Price Query -> Directed Radius.png">Graph</a> |
+| 8 | Price Query | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Price Query -> Undirected Radius.png">Graph</a> |
+| 8 | Price Query | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Price Query -> Directed Median.png">Graph</a> |
+| 8 | Price Query | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Price Query -> Undirected Median.png">Graph</a> |
+| 8 | Price Query | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Price Query -> Max-Weight k-Clique.png">Graph</a> |
+| 8 | Betweenness Centrality (BC) | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Betweenness Centrality (BC) -> k-Clique.png">Graph</a> |
+| 8 | Radius | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Radius -> Matrix Product.png">Graph</a> |
+| 8 | Radius | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Radius -> Negative Triangle Search.png">Graph</a> |
+| 8 | Radius | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Radius -> Negative Triangle Listing.png">Graph</a> |
+| 8 | Radius | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Radius -> Minimum Witness Finding.png">Graph</a> |
+| 8 | Radius | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Radius -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 8 | Radius | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Radius -> Directed Radius.png">Graph</a> |
+| 8 | Radius | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Radius -> Undirected Radius.png">Graph</a> |
+| 8 | Radius | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Radius -> Directed Median.png">Graph</a> |
+| 8 | Radius | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Radius -> Undirected Median.png">Graph</a> |
+| 8 | Radius | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Radius -> Max-Weight k-Clique.png">Graph</a> |
+| 8 | Median | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Median -> Matrix Product.png">Graph</a> |
+| 8 | Median | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Median -> Negative Triangle Search.png">Graph</a> |
+| 8 | Median | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Median -> Negative Triangle Listing.png">Graph</a> |
+| 8 | Median | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Median -> Minimum Witness Finding.png">Graph</a> |
+| 8 | Median | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Median -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 8 | Median | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Median -> Directed Radius.png">Graph</a> |
+| 8 | Median | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Median -> Undirected Radius.png">Graph</a> |
+| 8 | Median | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Median -> Directed Median.png">Graph</a> |
+| 8 | Median | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Median -> Undirected Median.png">Graph</a> |
+| 8 | Median | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Median -> Max-Weight k-Clique.png">Graph</a> |
+| 8 | All-Nodes Median Parity | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = All-Nodes Median Parity -> Matrix Product.png">Graph</a> |
+| 8 | All-Nodes Median Parity | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = All-Nodes Median Parity -> Negative Triangle Search.png">Graph</a> |
+| 8 | All-Nodes Median Parity | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = All-Nodes Median Parity -> Negative Triangle Listing.png">Graph</a> |
+| 8 | All-Nodes Median Parity | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = All-Nodes Median Parity -> Minimum Witness Finding.png">Graph</a> |
+| 8 | All-Nodes Median Parity | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = All-Nodes Median Parity -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 8 | All-Nodes Median Parity | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = All-Nodes Median Parity -> Directed Radius.png">Graph</a> |
+| 8 | All-Nodes Median Parity | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = All-Nodes Median Parity -> Undirected Radius.png">Graph</a> |
+| 8 | All-Nodes Median Parity | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = All-Nodes Median Parity -> Directed Median.png">Graph</a> |
+| 8 | All-Nodes Median Parity | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = All-Nodes Median Parity -> Undirected Median.png">Graph</a> |
+| 8 | All-Nodes Median Parity | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = All-Nodes Median Parity -> Max-Weight k-Clique.png">Graph</a> |
+| 8 | All-Nodes Positive Betweenness Centrality | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = All-Nodes Positive Betweenness Centrality -> Matrix Product.png">Graph</a> |
+| 8 | All-Nodes Positive Betweenness Centrality | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = All-Nodes Positive Betweenness Centrality -> Negative Triangle Search.png">Graph</a> |
+| 8 | All-Nodes Positive Betweenness Centrality | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = All-Nodes Positive Betweenness Centrality -> Negative Triangle Listing.png">Graph</a> |
+| 8 | All-Nodes Positive Betweenness Centrality | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = All-Nodes Positive Betweenness Centrality -> Minimum Witness Finding.png">Graph</a> |
+| 8 | All-Nodes Positive Betweenness Centrality | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = All-Nodes Positive Betweenness Centrality -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 8 | All-Nodes Positive Betweenness Centrality | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = All-Nodes Positive Betweenness Centrality -> Directed Radius.png">Graph</a> |
+| 8 | All-Nodes Positive Betweenness Centrality | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = All-Nodes Positive Betweenness Centrality -> Undirected Radius.png">Graph</a> |
+| 8 | All-Nodes Positive Betweenness Centrality | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = All-Nodes Positive Betweenness Centrality -> Directed Median.png">Graph</a> |
+| 8 | All-Nodes Positive Betweenness Centrality | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = All-Nodes Positive Betweenness Centrality -> Undirected Median.png">Graph</a> |
+| 8 | All-Nodes Positive Betweenness Centrality | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = All-Nodes Positive Betweenness Centrality -> Max-Weight k-Clique.png">Graph</a> |
+| 8 | Directed All-Nodes Positive Betweenness Centrality | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Directed All-Nodes Positive Betweenness Centrality -> Matrix Product.png">Graph</a> |
+| 8 | Directed All-Nodes Positive Betweenness Centrality | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Directed All-Nodes Positive Betweenness Centrality -> Negative Triangle Search.png">Graph</a> |
+| 8 | Directed All-Nodes Positive Betweenness Centrality | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Directed All-Nodes Positive Betweenness Centrality -> Negative Triangle Listing.png">Graph</a> |
+| 8 | Directed All-Nodes Positive Betweenness Centrality | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Directed All-Nodes Positive Betweenness Centrality -> Minimum Witness Finding.png">Graph</a> |
+| 8 | Directed All-Nodes Positive Betweenness Centrality | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Directed All-Nodes Positive Betweenness Centrality -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 8 | Directed All-Nodes Positive Betweenness Centrality | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Directed All-Nodes Positive Betweenness Centrality -> Directed Radius.png">Graph</a> |
+| 8 | Directed All-Nodes Positive Betweenness Centrality | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Directed All-Nodes Positive Betweenness Centrality -> Undirected Radius.png">Graph</a> |
+| 8 | Directed All-Nodes Positive Betweenness Centrality | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Directed All-Nodes Positive Betweenness Centrality -> Directed Median.png">Graph</a> |
+| 8 | Directed All-Nodes Positive Betweenness Centrality | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Directed All-Nodes Positive Betweenness Centrality -> Undirected Median.png">Graph</a> |
+| 8 | Directed All-Nodes Positive Betweenness Centrality | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Directed All-Nodes Positive Betweenness Centrality -> Max-Weight k-Clique.png">Graph</a> |
+| 8 | Undirected All-Nodes Positive Betweenness Centrality | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Undirected All-Nodes Positive Betweenness Centrality -> Matrix Product.png">Graph</a> |
+| 8 | Undirected All-Nodes Positive Betweenness Centrality | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Undirected All-Nodes Positive Betweenness Centrality -> Negative Triangle Search.png">Graph</a> |
+| 8 | Undirected All-Nodes Positive Betweenness Centrality | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Undirected All-Nodes Positive Betweenness Centrality -> Negative Triangle Listing.png">Graph</a> |
+| 8 | Undirected All-Nodes Positive Betweenness Centrality | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Undirected All-Nodes Positive Betweenness Centrality -> Minimum Witness Finding.png">Graph</a> |
+| 8 | Undirected All-Nodes Positive Betweenness Centrality | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Undirected All-Nodes Positive Betweenness Centrality -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 8 | Undirected All-Nodes Positive Betweenness Centrality | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Undirected All-Nodes Positive Betweenness Centrality -> Directed Radius.png">Graph</a> |
+| 8 | Undirected All-Nodes Positive Betweenness Centrality | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Undirected All-Nodes Positive Betweenness Centrality -> Undirected Radius.png">Graph</a> |
+| 8 | Undirected All-Nodes Positive Betweenness Centrality | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Undirected All-Nodes Positive Betweenness Centrality -> Directed Median.png">Graph</a> |
+| 8 | Undirected All-Nodes Positive Betweenness Centrality | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Undirected All-Nodes Positive Betweenness Centrality -> Undirected Median.png">Graph</a> |
+| 8 | Undirected All-Nodes Positive Betweenness Centrality | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Undirected All-Nodes Positive Betweenness Centrality -> Max-Weight k-Clique.png">Graph</a> |
+| 8 | Directed All-Nodes Reach Centrality | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Directed All-Nodes Reach Centrality -> Matrix Product.png">Graph</a> |
+| 8 | Directed All-Nodes Reach Centrality | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Directed All-Nodes Reach Centrality -> Negative Triangle Search.png">Graph</a> |
+| 8 | Directed All-Nodes Reach Centrality | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Directed All-Nodes Reach Centrality -> Negative Triangle Listing.png">Graph</a> |
+| 8 | Directed All-Nodes Reach Centrality | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Directed All-Nodes Reach Centrality -> Minimum Witness Finding.png">Graph</a> |
+| 8 | Directed All-Nodes Reach Centrality | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Directed All-Nodes Reach Centrality -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 8 | Directed All-Nodes Reach Centrality | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Directed All-Nodes Reach Centrality -> Directed Radius.png">Graph</a> |
+| 8 | Directed All-Nodes Reach Centrality | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Directed All-Nodes Reach Centrality -> Undirected Radius.png">Graph</a> |
+| 8 | Directed All-Nodes Reach Centrality | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Directed All-Nodes Reach Centrality -> Directed Median.png">Graph</a> |
+| 8 | Directed All-Nodes Reach Centrality | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Directed All-Nodes Reach Centrality -> Undirected Median.png">Graph</a> |
+| 8 | Directed All-Nodes Reach Centrality | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Directed All-Nodes Reach Centrality -> Max-Weight k-Clique.png">Graph</a> |
+| 8 | Undirected All-Nodes Reach Centrality | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Undirected All-Nodes Reach Centrality -> Matrix Product.png">Graph</a> |
+| 8 | Undirected All-Nodes Reach Centrality | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Undirected All-Nodes Reach Centrality -> Negative Triangle Search.png">Graph</a> |
+| 8 | Undirected All-Nodes Reach Centrality | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Undirected All-Nodes Reach Centrality -> Negative Triangle Listing.png">Graph</a> |
+| 8 | Undirected All-Nodes Reach Centrality | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Undirected All-Nodes Reach Centrality -> Minimum Witness Finding.png">Graph</a> |
+| 8 | Undirected All-Nodes Reach Centrality | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Undirected All-Nodes Reach Centrality -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 8 | Undirected All-Nodes Reach Centrality | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Undirected All-Nodes Reach Centrality -> Directed Radius.png">Graph</a> |
+| 8 | Undirected All-Nodes Reach Centrality | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Undirected All-Nodes Reach Centrality -> Undirected Radius.png">Graph</a> |
+| 8 | Undirected All-Nodes Reach Centrality | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Undirected All-Nodes Reach Centrality -> Directed Median.png">Graph</a> |
+| 8 | Undirected All-Nodes Reach Centrality | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Undirected All-Nodes Reach Centrality -> Undirected Median.png">Graph</a> |
+| 8 | Undirected All-Nodes Reach Centrality | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Undirected All-Nodes Reach Centrality -> Max-Weight k-Clique.png">Graph</a> |
+| 8 | Dynamic Bipartite Maximum-Weight Matching | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Dynamic Bipartite Maximum-Weight Matching -> Matrix Product.png">Graph</a> |
+| 8 | Dynamic Bipartite Maximum-Weight Matching | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Dynamic Bipartite Maximum-Weight Matching -> Negative Triangle Search.png">Graph</a> |
+| 8 | Dynamic Bipartite Maximum-Weight Matching | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Dynamic Bipartite Maximum-Weight Matching -> Negative Triangle Listing.png">Graph</a> |
+| 8 | Dynamic Bipartite Maximum-Weight Matching | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Dynamic Bipartite Maximum-Weight Matching -> Minimum Witness Finding.png">Graph</a> |
+| 8 | Dynamic Bipartite Maximum-Weight Matching | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Dynamic Bipartite Maximum-Weight Matching -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 8 | Dynamic Bipartite Maximum-Weight Matching | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Dynamic Bipartite Maximum-Weight Matching -> Directed Radius.png">Graph</a> |
+| 8 | Dynamic Bipartite Maximum-Weight Matching | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Dynamic Bipartite Maximum-Weight Matching -> Undirected Radius.png">Graph</a> |
+| 8 | Dynamic Bipartite Maximum-Weight Matching | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Dynamic Bipartite Maximum-Weight Matching -> Directed Median.png">Graph</a> |
+| 8 | Dynamic Bipartite Maximum-Weight Matching | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Dynamic Bipartite Maximum-Weight Matching -> Undirected Median.png">Graph</a> |
+| 8 | Dynamic Bipartite Maximum-Weight Matching | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Dynamic Bipartite Maximum-Weight Matching -> Max-Weight k-Clique.png">Graph</a> |
+| 8 | Dynamic $st$-Shortest Path | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Dynamic $st$-Shortest Path -> Matrix Product.png">Graph</a> |
+| 8 | Dynamic $st$-Shortest Path | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Dynamic $st$-Shortest Path -> Negative Triangle Search.png">Graph</a> |
+| 8 | Dynamic $st$-Shortest Path | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Dynamic $st$-Shortest Path -> Negative Triangle Listing.png">Graph</a> |
+| 8 | Dynamic $st$-Shortest Path | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Dynamic $st$-Shortest Path -> Minimum Witness Finding.png">Graph</a> |
+| 8 | Dynamic $st$-Shortest Path | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Dynamic $st$-Shortest Path -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 8 | Dynamic $st$-Shortest Path | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Dynamic $st$-Shortest Path -> Directed Radius.png">Graph</a> |
+| 8 | Dynamic $st$-Shortest Path | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Dynamic $st$-Shortest Path -> Undirected Radius.png">Graph</a> |
+| 8 | Dynamic $st$-Shortest Path | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Dynamic $st$-Shortest Path -> Directed Median.png">Graph</a> |
+| 8 | Dynamic $st$-Shortest Path | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Dynamic $st$-Shortest Path -> Undirected Median.png">Graph</a> |
+| 8 | Dynamic $st$-Shortest Path | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = Dynamic $st$-Shortest Path -> Max-Weight k-Clique.png">Graph</a> |
+| 8 | 1-sensitive decremental st-shortest paths | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 1-sensitive decremental st-shortest paths -> Directed, Weighted APSP.png">Graph</a> |
+| 8 | 1-sensitive decremental st-shortest paths | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 1-sensitive decremental st-shortest paths -> Negative Triangle Detection.png">Graph</a> |
+| 8 | 1-sensitive decremental st-shortest paths | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 1-sensitive decremental st-shortest paths -> Maximum Subarray.png">Graph</a> |
+| 8 | 1-sensitive decremental st-shortest paths | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 1-sensitive decremental st-shortest paths -> Undirected, Weighted APSP.png">Graph</a> |
+| 8 | 1-sensitive decremental st-shortest paths | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 1-sensitive decremental st-shortest paths -> Metricity.png">Graph</a> |
+| 8 | 1-sensitive decremental st-shortest paths | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 1-sensitive decremental st-shortest paths -> Betweenness Centrality (BC).png">Graph</a> |
+| 8 | 2-sensitive decremental st-shortest paths | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 2-sensitive decremental st-shortest paths -> Matrix Product.png">Graph</a> |
+| 8 | 2-sensitive decremental st-shortest paths | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 2-sensitive decremental st-shortest paths -> Negative Triangle Search.png">Graph</a> |
+| 8 | 2-sensitive decremental st-shortest paths | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 2-sensitive decremental st-shortest paths -> Negative Triangle Listing.png">Graph</a> |
+| 8 | 2-sensitive decremental st-shortest paths | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 2-sensitive decremental st-shortest paths -> Minimum Witness Finding.png">Graph</a> |
+| 8 | 2-sensitive decremental st-shortest paths | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 2-sensitive decremental st-shortest paths -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 8 | 2-sensitive decremental st-shortest paths | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 2-sensitive decremental st-shortest paths -> Directed Radius.png">Graph</a> |
+| 8 | 2-sensitive decremental st-shortest paths | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 2-sensitive decremental st-shortest paths -> Undirected Radius.png">Graph</a> |
+| 8 | 2-sensitive decremental st-shortest paths | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 2-sensitive decremental st-shortest paths -> Directed Median.png">Graph</a> |
+| 8 | 2-sensitive decremental st-shortest paths | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 2-sensitive decremental st-shortest paths -> Undirected Median.png">Graph</a> |
+| 8 | 2-sensitive decremental st-shortest paths | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 2-sensitive decremental st-shortest paths -> Max-Weight k-Clique.png">Graph</a> |
+| 8 | 1-sensitive decremental diameter | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 1-sensitive decremental diameter -> Matrix Product.png">Graph</a> |
+| 8 | 1-sensitive decremental diameter | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 1-sensitive decremental diameter -> Negative Triangle Search.png">Graph</a> |
+| 8 | 1-sensitive decremental diameter | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 1-sensitive decremental diameter -> Negative Triangle Listing.png">Graph</a> |
+| 8 | 1-sensitive decremental diameter | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 1-sensitive decremental diameter -> Minimum Witness Finding.png">Graph</a> |
+| 8 | 1-sensitive decremental diameter | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 1-sensitive decremental diameter -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 8 | 1-sensitive decremental diameter | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 1-sensitive decremental diameter -> Directed Radius.png">Graph</a> |
+| 8 | 1-sensitive decremental diameter | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 1-sensitive decremental diameter -> Undirected Radius.png">Graph</a> |
+| 8 | 1-sensitive decremental diameter | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 1-sensitive decremental diameter -> Directed Median.png">Graph</a> |
+| 8 | 1-sensitive decremental diameter | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 1-sensitive decremental diameter -> Undirected Median.png">Graph</a> |
+| 8 | 1-sensitive decremental diameter | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 1-sensitive decremental diameter -> Max-Weight k-Clique.png">Graph</a> |
+| 8 | 2D Maximum Subarray | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 2D Maximum Subarray -> Matrix Product.png">Graph</a> |
+| 8 | 2D Maximum Subarray | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 2D Maximum Subarray -> Negative Triangle Search.png">Graph</a> |
+| 8 | 2D Maximum Subarray | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 2D Maximum Subarray -> Negative Triangle Listing.png">Graph</a> |
+| 8 | 2D Maximum Subarray | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 2D Maximum Subarray -> Minimum Witness Finding.png">Graph</a> |
+| 8 | 2D Maximum Subarray | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 2D Maximum Subarray -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 8 | 2D Maximum Subarray | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 2D Maximum Subarray -> Directed Radius.png">Graph</a> |
+| 8 | 2D Maximum Subarray | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 2D Maximum Subarray -> Undirected Radius.png">Graph</a> |
+| 8 | 2D Maximum Subarray | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 2D Maximum Subarray -> Directed Median.png">Graph</a> |
+| 8 | 2D Maximum Subarray | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 2D Maximum Subarray -> Undirected Median.png">Graph</a> |
+| 8 | 2D Maximum Subarray | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/8 = 2D Maximum Subarray -> Max-Weight k-Clique.png">Graph</a> |
+| 7 | Directed, Weighted APSP | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Directed, Weighted APSP -> Matrix Product.png">Graph</a> |
+| 7 | Directed, Weighted APSP | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Directed, Weighted APSP -> Negative Triangle Search.png">Graph</a> |
+| 7 | Directed, Weighted APSP | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Directed, Weighted APSP -> Negative Triangle Listing.png">Graph</a> |
+| 7 | Directed, Weighted APSP | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Directed, Weighted APSP -> Minimum Witness Finding.png">Graph</a> |
+| 7 | Directed, Weighted APSP | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Directed, Weighted APSP -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 7 | Directed, Weighted APSP | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Directed, Weighted APSP -> Directed Radius.png">Graph</a> |
+| 7 | Directed, Weighted APSP | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Directed, Weighted APSP -> Undirected Radius.png">Graph</a> |
+| 7 | Directed, Weighted APSP | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Directed, Weighted APSP -> Directed Median.png">Graph</a> |
+| 7 | Directed, Weighted APSP | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Directed, Weighted APSP -> Undirected Median.png">Graph</a> |
+| 7 | Directed, Weighted APSP | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Directed, Weighted APSP -> Max-Weight k-Clique.png">Graph</a> |
+| 7 | Negative Triangle Detection | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Negative Triangle Detection -> Matrix Product.png">Graph</a> |
+| 7 | Negative Triangle Detection | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Negative Triangle Detection -> Negative Triangle Search.png">Graph</a> |
+| 7 | Negative Triangle Detection | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Negative Triangle Detection -> Negative Triangle Listing.png">Graph</a> |
+| 7 | Negative Triangle Detection | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Negative Triangle Detection -> Minimum Witness Finding.png">Graph</a> |
+| 7 | Negative Triangle Detection | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Negative Triangle Detection -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 7 | Negative Triangle Detection | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Negative Triangle Detection -> Directed Radius.png">Graph</a> |
+| 7 | Negative Triangle Detection | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Negative Triangle Detection -> Undirected Radius.png">Graph</a> |
+| 7 | Negative Triangle Detection | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Negative Triangle Detection -> Directed Median.png">Graph</a> |
+| 7 | Negative Triangle Detection | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Negative Triangle Detection -> Undirected Median.png">Graph</a> |
+| 7 | Negative Triangle Detection | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Negative Triangle Detection -> Max-Weight k-Clique.png">Graph</a> |
+| 7 | Matrix Product Verification | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Matrix Product Verification -> Directed, Weighted APSP.png">Graph</a> |
+| 7 | Matrix Product Verification | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Matrix Product Verification -> Negative Triangle Detection.png">Graph</a> |
+| 7 | Matrix Product Verification | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Matrix Product Verification -> Maximum Subarray.png">Graph</a> |
+| 7 | Matrix Product Verification | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Matrix Product Verification -> Undirected, Weighted APSP.png">Graph</a> |
+| 7 | Matrix Product Verification | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Matrix Product Verification -> Metricity.png">Graph</a> |
+| 7 | Matrix Product Verification | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Matrix Product Verification -> Betweenness Centrality (BC).png">Graph</a> |
+| 7 | Maximum Subarray | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Maximum Subarray -> Matrix Product.png">Graph</a> |
+| 7 | Maximum Subarray | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Maximum Subarray -> Negative Triangle Search.png">Graph</a> |
+| 7 | Maximum Subarray | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Maximum Subarray -> Negative Triangle Listing.png">Graph</a> |
+| 7 | Maximum Subarray | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Maximum Subarray -> Minimum Witness Finding.png">Graph</a> |
+| 7 | Maximum Subarray | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Maximum Subarray -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 7 | Maximum Subarray | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Maximum Subarray -> Directed Radius.png">Graph</a> |
+| 7 | Maximum Subarray | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Maximum Subarray -> Undirected Radius.png">Graph</a> |
+| 7 | Maximum Subarray | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Maximum Subarray -> Directed Median.png">Graph</a> |
+| 7 | Maximum Subarray | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Maximum Subarray -> Undirected Median.png">Graph</a> |
+| 7 | Maximum Subarray | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Maximum Subarray -> Max-Weight k-Clique.png">Graph</a> |
+| 7 | Distance Product | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Distance Product -> Directed, Weighted APSP.png">Graph</a> |
+| 7 | Distance Product | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Distance Product -> Negative Triangle Detection.png">Graph</a> |
+| 7 | Distance Product | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Distance Product -> Maximum Subarray.png">Graph</a> |
+| 7 | Distance Product | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Distance Product -> Undirected, Weighted APSP.png">Graph</a> |
+| 7 | Distance Product | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Distance Product -> Metricity.png">Graph</a> |
+| 7 | Distance Product | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Distance Product -> Betweenness Centrality (BC).png">Graph</a> |
+| 7 | Undirected, Weighted APSP | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Undirected, Weighted APSP -> Matrix Product.png">Graph</a> |
+| 7 | Undirected, Weighted APSP | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Undirected, Weighted APSP -> Negative Triangle Search.png">Graph</a> |
+| 7 | Undirected, Weighted APSP | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Undirected, Weighted APSP -> Negative Triangle Listing.png">Graph</a> |
+| 7 | Undirected, Weighted APSP | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Undirected, Weighted APSP -> Minimum Witness Finding.png">Graph</a> |
+| 7 | Undirected, Weighted APSP | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Undirected, Weighted APSP -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 7 | Undirected, Weighted APSP | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Undirected, Weighted APSP -> Directed Radius.png">Graph</a> |
+| 7 | Undirected, Weighted APSP | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Undirected, Weighted APSP -> Undirected Radius.png">Graph</a> |
+| 7 | Undirected, Weighted APSP | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Undirected, Weighted APSP -> Directed Median.png">Graph</a> |
+| 7 | Undirected, Weighted APSP | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Undirected, Weighted APSP -> Undirected Median.png">Graph</a> |
+| 7 | Undirected, Weighted APSP | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Undirected, Weighted APSP -> Max-Weight k-Clique.png">Graph</a> |
+| 7 | Metricity | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Metricity -> Matrix Product.png">Graph</a> |
+| 7 | Metricity | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Metricity -> Negative Triangle Search.png">Graph</a> |
+| 7 | Metricity | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Metricity -> Negative Triangle Listing.png">Graph</a> |
+| 7 | Metricity | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Metricity -> Minimum Witness Finding.png">Graph</a> |
+| 7 | Metricity | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Metricity -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 7 | Metricity | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Metricity -> Directed Radius.png">Graph</a> |
+| 7 | Metricity | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Metricity -> Undirected Radius.png">Graph</a> |
+| 7 | Metricity | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Metricity -> Directed Median.png">Graph</a> |
+| 7 | Metricity | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Metricity -> Undirected Median.png">Graph</a> |
+| 7 | Metricity | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Metricity -> Max-Weight k-Clique.png">Graph</a> |
+| 7 | Shortest Cycle | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Shortest Cycle -> Directed, Weighted APSP.png">Graph</a> |
+| 7 | Shortest Cycle | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Shortest Cycle -> Negative Triangle Detection.png">Graph</a> |
+| 7 | Shortest Cycle | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Shortest Cycle -> Maximum Subarray.png">Graph</a> |
+| 7 | Shortest Cycle | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Shortest Cycle -> Undirected, Weighted APSP.png">Graph</a> |
+| 7 | Shortest Cycle | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Shortest Cycle -> Metricity.png">Graph</a> |
+| 7 | Shortest Cycle | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Shortest Cycle -> Betweenness Centrality (BC).png">Graph</a> |
+| 7 | Replacement Paths Problem (RPP) | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Replacement Paths Problem (RPP) -> Directed, Weighted APSP.png">Graph</a> |
+| 7 | Replacement Paths Problem (RPP) | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Replacement Paths Problem (RPP) -> Negative Triangle Detection.png">Graph</a> |
+| 7 | Replacement Paths Problem (RPP) | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Replacement Paths Problem (RPP) -> Maximum Subarray.png">Graph</a> |
+| 7 | Replacement Paths Problem (RPP) | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Replacement Paths Problem (RPP) -> Undirected, Weighted APSP.png">Graph</a> |
+| 7 | Replacement Paths Problem (RPP) | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Replacement Paths Problem (RPP) -> Metricity.png">Graph</a> |
+| 7 | Replacement Paths Problem (RPP) | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Replacement Paths Problem (RPP) -> Betweenness Centrality (BC).png">Graph</a> |
+| 7 | Price Query | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Price Query -> Directed, Weighted APSP.png">Graph</a> |
+| 7 | Price Query | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Price Query -> Negative Triangle Detection.png">Graph</a> |
+| 7 | Price Query | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Price Query -> Maximum Subarray.png">Graph</a> |
+| 7 | Price Query | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Price Query -> Undirected, Weighted APSP.png">Graph</a> |
+| 7 | Price Query | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Price Query -> Metricity.png">Graph</a> |
+| 7 | Price Query | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Price Query -> Betweenness Centrality (BC).png">Graph</a> |
+| 7 | Betweenness Centrality (BC) | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Betweenness Centrality (BC) -> Matrix Product.png">Graph</a> |
+| 7 | Betweenness Centrality (BC) | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Betweenness Centrality (BC) -> Negative Triangle Search.png">Graph</a> |
+| 7 | Betweenness Centrality (BC) | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Betweenness Centrality (BC) -> Negative Triangle Listing.png">Graph</a> |
+| 7 | Betweenness Centrality (BC) | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Betweenness Centrality (BC) -> Minimum Witness Finding.png">Graph</a> |
+| 7 | Betweenness Centrality (BC) | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Betweenness Centrality (BC) -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 7 | Betweenness Centrality (BC) | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Betweenness Centrality (BC) -> Directed Radius.png">Graph</a> |
+| 7 | Betweenness Centrality (BC) | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Betweenness Centrality (BC) -> Undirected Radius.png">Graph</a> |
+| 7 | Betweenness Centrality (BC) | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Betweenness Centrality (BC) -> Directed Median.png">Graph</a> |
+| 7 | Betweenness Centrality (BC) | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Betweenness Centrality (BC) -> Undirected Median.png">Graph</a> |
+| 7 | Betweenness Centrality (BC) | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Betweenness Centrality (BC) -> Max-Weight k-Clique.png">Graph</a> |
+| 7 | Radius | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Radius -> Directed, Weighted APSP.png">Graph</a> |
+| 7 | Radius | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Radius -> Negative Triangle Detection.png">Graph</a> |
+| 7 | Radius | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Radius -> Maximum Subarray.png">Graph</a> |
+| 7 | Radius | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Radius -> Undirected, Weighted APSP.png">Graph</a> |
+| 7 | Radius | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Radius -> Metricity.png">Graph</a> |
+| 7 | Radius | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Radius -> Betweenness Centrality (BC).png">Graph</a> |
+| 7 | Median | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Median -> Directed, Weighted APSP.png">Graph</a> |
+| 7 | Median | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Median -> Negative Triangle Detection.png">Graph</a> |
+| 7 | Median | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Median -> Maximum Subarray.png">Graph</a> |
+| 7 | Median | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Median -> Undirected, Weighted APSP.png">Graph</a> |
+| 7 | Median | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Median -> Metricity.png">Graph</a> |
+| 7 | Median | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Median -> Betweenness Centrality (BC).png">Graph</a> |
+| 7 | All-Nodes Median Parity | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = All-Nodes Median Parity -> Directed, Weighted APSP.png">Graph</a> |
+| 7 | All-Nodes Median Parity | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = All-Nodes Median Parity -> Negative Triangle Detection.png">Graph</a> |
+| 7 | All-Nodes Median Parity | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = All-Nodes Median Parity -> Maximum Subarray.png">Graph</a> |
+| 7 | All-Nodes Median Parity | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = All-Nodes Median Parity -> Undirected, Weighted APSP.png">Graph</a> |
+| 7 | All-Nodes Median Parity | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = All-Nodes Median Parity -> Metricity.png">Graph</a> |
+| 7 | All-Nodes Median Parity | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = All-Nodes Median Parity -> Betweenness Centrality (BC).png">Graph</a> |
+| 7 | All-Nodes Positive Betweenness Centrality | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = All-Nodes Positive Betweenness Centrality -> Directed, Weighted APSP.png">Graph</a> |
+| 7 | All-Nodes Positive Betweenness Centrality | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = All-Nodes Positive Betweenness Centrality -> Negative Triangle Detection.png">Graph</a> |
+| 7 | All-Nodes Positive Betweenness Centrality | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = All-Nodes Positive Betweenness Centrality -> Maximum Subarray.png">Graph</a> |
+| 7 | All-Nodes Positive Betweenness Centrality | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = All-Nodes Positive Betweenness Centrality -> Undirected, Weighted APSP.png">Graph</a> |
+| 7 | All-Nodes Positive Betweenness Centrality | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = All-Nodes Positive Betweenness Centrality -> Metricity.png">Graph</a> |
+| 7 | All-Nodes Positive Betweenness Centrality | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = All-Nodes Positive Betweenness Centrality -> Betweenness Centrality (BC).png">Graph</a> |
+| 7 | Directed All-Nodes Positive Betweenness Centrality | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Directed All-Nodes Positive Betweenness Centrality -> Directed, Weighted APSP.png">Graph</a> |
+| 7 | Directed All-Nodes Positive Betweenness Centrality | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Directed All-Nodes Positive Betweenness Centrality -> Negative Triangle Detection.png">Graph</a> |
+| 7 | Directed All-Nodes Positive Betweenness Centrality | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Directed All-Nodes Positive Betweenness Centrality -> Maximum Subarray.png">Graph</a> |
+| 7 | Directed All-Nodes Positive Betweenness Centrality | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Directed All-Nodes Positive Betweenness Centrality -> Undirected, Weighted APSP.png">Graph</a> |
+| 7 | Directed All-Nodes Positive Betweenness Centrality | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Directed All-Nodes Positive Betweenness Centrality -> Metricity.png">Graph</a> |
+| 7 | Directed All-Nodes Positive Betweenness Centrality | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Directed All-Nodes Positive Betweenness Centrality -> Betweenness Centrality (BC).png">Graph</a> |
+| 7 | Undirected All-Nodes Positive Betweenness Centrality | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Undirected All-Nodes Positive Betweenness Centrality -> Directed, Weighted APSP.png">Graph</a> |
+| 7 | Undirected All-Nodes Positive Betweenness Centrality | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Undirected All-Nodes Positive Betweenness Centrality -> Negative Triangle Detection.png">Graph</a> |
+| 7 | Undirected All-Nodes Positive Betweenness Centrality | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Undirected All-Nodes Positive Betweenness Centrality -> Maximum Subarray.png">Graph</a> |
+| 7 | Undirected All-Nodes Positive Betweenness Centrality | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Undirected All-Nodes Positive Betweenness Centrality -> Undirected, Weighted APSP.png">Graph</a> |
+| 7 | Undirected All-Nodes Positive Betweenness Centrality | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Undirected All-Nodes Positive Betweenness Centrality -> Metricity.png">Graph</a> |
+| 7 | Undirected All-Nodes Positive Betweenness Centrality | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Undirected All-Nodes Positive Betweenness Centrality -> Betweenness Centrality (BC).png">Graph</a> |
+| 7 | Directed All-Nodes Reach Centrality | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Directed All-Nodes Reach Centrality -> Directed, Weighted APSP.png">Graph</a> |
+| 7 | Directed All-Nodes Reach Centrality | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Directed All-Nodes Reach Centrality -> Negative Triangle Detection.png">Graph</a> |
+| 7 | Directed All-Nodes Reach Centrality | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Directed All-Nodes Reach Centrality -> Maximum Subarray.png">Graph</a> |
+| 7 | Directed All-Nodes Reach Centrality | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Directed All-Nodes Reach Centrality -> Undirected, Weighted APSP.png">Graph</a> |
+| 7 | Directed All-Nodes Reach Centrality | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Directed All-Nodes Reach Centrality -> Metricity.png">Graph</a> |
+| 7 | Directed All-Nodes Reach Centrality | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Directed All-Nodes Reach Centrality -> Betweenness Centrality (BC).png">Graph</a> |
+| 7 | Undirected All-Nodes Reach Centrality | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Undirected All-Nodes Reach Centrality -> Directed, Weighted APSP.png">Graph</a> |
+| 7 | Undirected All-Nodes Reach Centrality | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Undirected All-Nodes Reach Centrality -> Negative Triangle Detection.png">Graph</a> |
+| 7 | Undirected All-Nodes Reach Centrality | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Undirected All-Nodes Reach Centrality -> Maximum Subarray.png">Graph</a> |
+| 7 | Undirected All-Nodes Reach Centrality | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Undirected All-Nodes Reach Centrality -> Undirected, Weighted APSP.png">Graph</a> |
+| 7 | Undirected All-Nodes Reach Centrality | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Undirected All-Nodes Reach Centrality -> Metricity.png">Graph</a> |
+| 7 | Undirected All-Nodes Reach Centrality | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Undirected All-Nodes Reach Centrality -> Betweenness Centrality (BC).png">Graph</a> |
+| 7 | Dynamic Bipartite Maximum-Weight Matching | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Dynamic Bipartite Maximum-Weight Matching -> Directed, Weighted APSP.png">Graph</a> |
+| 7 | Dynamic Bipartite Maximum-Weight Matching | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Dynamic Bipartite Maximum-Weight Matching -> Negative Triangle Detection.png">Graph</a> |
+| 7 | Dynamic Bipartite Maximum-Weight Matching | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Dynamic Bipartite Maximum-Weight Matching -> Maximum Subarray.png">Graph</a> |
+| 7 | Dynamic Bipartite Maximum-Weight Matching | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Dynamic Bipartite Maximum-Weight Matching -> Undirected, Weighted APSP.png">Graph</a> |
+| 7 | Dynamic Bipartite Maximum-Weight Matching | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Dynamic Bipartite Maximum-Weight Matching -> Metricity.png">Graph</a> |
+| 7 | Dynamic Bipartite Maximum-Weight Matching | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Dynamic Bipartite Maximum-Weight Matching -> Betweenness Centrality (BC).png">Graph</a> |
+| 7 | Dynamic $st$-Shortest Path | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Dynamic $st$-Shortest Path -> Directed, Weighted APSP.png">Graph</a> |
+| 7 | Dynamic $st$-Shortest Path | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Dynamic $st$-Shortest Path -> Negative Triangle Detection.png">Graph</a> |
+| 7 | Dynamic $st$-Shortest Path | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Dynamic $st$-Shortest Path -> Maximum Subarray.png">Graph</a> |
+| 7 | Dynamic $st$-Shortest Path | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Dynamic $st$-Shortest Path -> Undirected, Weighted APSP.png">Graph</a> |
+| 7 | Dynamic $st$-Shortest Path | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Dynamic $st$-Shortest Path -> Metricity.png">Graph</a> |
+| 7 | Dynamic $st$-Shortest Path | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = Dynamic $st$-Shortest Path -> Betweenness Centrality (BC).png">Graph</a> |
+| 7 | 2-sensitive decremental st-shortest paths | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = 2-sensitive decremental st-shortest paths -> Directed, Weighted APSP.png">Graph</a> |
+| 7 | 2-sensitive decremental st-shortest paths | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = 2-sensitive decremental st-shortest paths -> Negative Triangle Detection.png">Graph</a> |
+| 7 | 2-sensitive decremental st-shortest paths | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = 2-sensitive decremental st-shortest paths -> Maximum Subarray.png">Graph</a> |
+| 7 | 2-sensitive decremental st-shortest paths | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = 2-sensitive decremental st-shortest paths -> Undirected, Weighted APSP.png">Graph</a> |
+| 7 | 2-sensitive decremental st-shortest paths | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = 2-sensitive decremental st-shortest paths -> Metricity.png">Graph</a> |
+| 7 | 2-sensitive decremental st-shortest paths | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = 2-sensitive decremental st-shortest paths -> Betweenness Centrality (BC).png">Graph</a> |
+| 7 | 1-sensitive decremental diameter | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = 1-sensitive decremental diameter -> Directed, Weighted APSP.png">Graph</a> |
+| 7 | 1-sensitive decremental diameter | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = 1-sensitive decremental diameter -> Negative Triangle Detection.png">Graph</a> |
+| 7 | 1-sensitive decremental diameter | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = 1-sensitive decremental diameter -> Maximum Subarray.png">Graph</a> |
+| 7 | 1-sensitive decremental diameter | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = 1-sensitive decremental diameter -> Undirected, Weighted APSP.png">Graph</a> |
+| 7 | 1-sensitive decremental diameter | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = 1-sensitive decremental diameter -> Metricity.png">Graph</a> |
+| 7 | 1-sensitive decremental diameter | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = 1-sensitive decremental diameter -> Betweenness Centrality (BC).png">Graph</a> |
+| 7 | 2D Maximum Subarray | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = 2D Maximum Subarray -> Directed, Weighted APSP.png">Graph</a> |
+| 7 | 2D Maximum Subarray | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = 2D Maximum Subarray -> Negative Triangle Detection.png">Graph</a> |
+| 7 | 2D Maximum Subarray | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = 2D Maximum Subarray -> Maximum Subarray.png">Graph</a> |
+| 7 | 2D Maximum Subarray | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = 2D Maximum Subarray -> Undirected, Weighted APSP.png">Graph</a> |
+| 7 | 2D Maximum Subarray | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = 2D Maximum Subarray -> Metricity.png">Graph</a> |
+| 7 | 2D Maximum Subarray | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_size/7 = 2D Maximum Subarray -> Betweenness Centrality (BC).png">Graph</a> |
 
 
 
@@ -550,99 +545,99 @@
 
 | Number of SCCs | From | To | Graph |
 | --- | --- | --- | --- |
-| 6 | 3 Points on Line | 3SUM | [graph](<impactful_edges_by_num_sccs/6 = 3 Points on Line -\> 3SUM.png>) |
-| 6 | 3 Points on Line | 3SUM' | [graph](<impactful_edges_by_num_sccs/6 = 3 Points on Line -\> 3SUM'.png>) |
-| 6 | 3 Points on Line | GeomBase | [graph](<impactful_edges_by_num_sccs/6 = 3 Points on Line -\> GeomBase.png>) |
-| 6 | 3 Points on Line | All-Integers 3SUM | [graph](<impactful_edges_by_num_sccs/6 = 3 Points on Line -\> All-Integers 3SUM.png>) |
-| 6 | Point on 3 Lines | 3SUM | [graph](<impactful_edges_by_num_sccs/6 = Point on 3 Lines -\> 3SUM.png>) |
-| 6 | Point on 3 Lines | 3SUM' | [graph](<impactful_edges_by_num_sccs/6 = Point on 3 Lines -\> 3SUM'.png>) |
-| 6 | Point on 3 Lines | GeomBase | [graph](<impactful_edges_by_num_sccs/6 = Point on 3 Lines -\> GeomBase.png>) |
-| 6 | Point on 3 Lines | All-Integers 3SUM | [graph](<impactful_edges_by_num_sccs/6 = Point on 3 Lines -\> All-Integers 3SUM.png>) |
-| 6 | Triangles Cover Triangle | 3SUM | [graph](<impactful_edges_by_num_sccs/6 = Triangles Cover Triangle -\> 3SUM.png>) |
-| 6 | Triangles Cover Triangle | 3SUM' | [graph](<impactful_edges_by_num_sccs/6 = Triangles Cover Triangle -\> 3SUM'.png>) |
-| 6 | Triangles Cover Triangle | GeomBase | [graph](<impactful_edges_by_num_sccs/6 = Triangles Cover Triangle -\> GeomBase.png>) |
-| 6 | Triangles Cover Triangle | All-Integers 3SUM | [graph](<impactful_edges_by_num_sccs/6 = Triangles Cover Triangle -\> All-Integers 3SUM.png>) |
-| 6 | Hole in Union | 3SUM | [graph](<impactful_edges_by_num_sccs/6 = Hole in Union -\> 3SUM.png>) |
-| 6 | Hole in Union | 3SUM' | [graph](<impactful_edges_by_num_sccs/6 = Hole in Union -\> 3SUM'.png>) |
-| 6 | Hole in Union | GeomBase | [graph](<impactful_edges_by_num_sccs/6 = Hole in Union -\> GeomBase.png>) |
-| 6 | Hole in Union | All-Integers 3SUM | [graph](<impactful_edges_by_num_sccs/6 = Hole in Union -\> All-Integers 3SUM.png>) |
-| 6 | Triangle Measure | 3SUM | [graph](<impactful_edges_by_num_sccs/6 = Triangle Measure -\> 3SUM.png>) |
-| 6 | Triangle Measure | 3SUM' | [graph](<impactful_edges_by_num_sccs/6 = Triangle Measure -\> 3SUM'.png>) |
-| 6 | Triangle Measure | GeomBase | [graph](<impactful_edges_by_num_sccs/6 = Triangle Measure -\> GeomBase.png>) |
-| 6 | Triangle Measure | All-Integers 3SUM | [graph](<impactful_edges_by_num_sccs/6 = Triangle Measure -\> All-Integers 3SUM.png>) |
-| 6 | Visible Triangle | 3SUM | [graph](<impactful_edges_by_num_sccs/6 = Visible Triangle -\> 3SUM.png>) |
-| 6 | Visible Triangle | 3SUM' | [graph](<impactful_edges_by_num_sccs/6 = Visible Triangle -\> 3SUM'.png>) |
-| 6 | Visible Triangle | GeomBase | [graph](<impactful_edges_by_num_sccs/6 = Visible Triangle -\> GeomBase.png>) |
-| 6 | Visible Triangle | All-Integers 3SUM | [graph](<impactful_edges_by_num_sccs/6 = Visible Triangle -\> All-Integers 3SUM.png>) |
-| 6 | 3D Motion Planning | 3SUM | [graph](<impactful_edges_by_num_sccs/6 = 3D Motion Planning -\> 3SUM.png>) |
-| 6 | 3D Motion Planning | 3SUM' | [graph](<impactful_edges_by_num_sccs/6 = 3D Motion Planning -\> 3SUM'.png>) |
-| 6 | 3D Motion Planning | GeomBase | [graph](<impactful_edges_by_num_sccs/6 = 3D Motion Planning -\> GeomBase.png>) |
-| 6 | 3D Motion Planning | All-Integers 3SUM | [graph](<impactful_edges_by_num_sccs/6 = 3D Motion Planning -\> All-Integers 3SUM.png>) |
-| 6 | Reach Centrality | Directed, Weighted APSP | [graph](<impactful_edges_by_num_sccs/6 = Reach Centrality -\> Directed, Weighted APSP.png>) |
-| 6 | Reach Centrality | Negative Triangle Detection | [graph](<impactful_edges_by_num_sccs/6 = Reach Centrality -\> Negative Triangle Detection.png>) |
-| 6 | Reach Centrality | Matrix Product | [graph](<impactful_edges_by_num_sccs/6 = Reach Centrality -\> Matrix Product.png>) |
-| 6 | Reach Centrality | Negative Triangle Search | [graph](<impactful_edges_by_num_sccs/6 = Reach Centrality -\> Negative Triangle Search.png>) |
-| 6 | Reach Centrality | Negative Triangle Listing | [graph](<impactful_edges_by_num_sccs/6 = Reach Centrality -\> Negative Triangle Listing.png>) |
-| 6 | Reach Centrality | Maximum Subarray | [graph](<impactful_edges_by_num_sccs/6 = Reach Centrality -\> Maximum Subarray.png>) |
-| 6 | Reach Centrality | Minimum Witness Finding | [graph](<impactful_edges_by_num_sccs/6 = Reach Centrality -\> Minimum Witness Finding.png>) |
-| 6 | Reach Centrality | All Pairs Minimum Witness (APMW) | [graph](<impactful_edges_by_num_sccs/6 = Reach Centrality -\> All Pairs Minimum Witness (APMW).png>) |
-| 6 | Reach Centrality | Undirected, Weighted APSP | [graph](<impactful_edges_by_num_sccs/6 = Reach Centrality -\> Undirected, Weighted APSP.png>) |
-| 6 | Reach Centrality | Metricity | [graph](<impactful_edges_by_num_sccs/6 = Reach Centrality -\> Metricity.png>) |
-| 6 | Reach Centrality | Directed Radius | [graph](<impactful_edges_by_num_sccs/6 = Reach Centrality -\> Directed Radius.png>) |
-| 6 | Reach Centrality | Undirected Radius | [graph](<impactful_edges_by_num_sccs/6 = Reach Centrality -\> Undirected Radius.png>) |
-| 6 | Reach Centrality | Directed Median | [graph](<impactful_edges_by_num_sccs/6 = Reach Centrality -\> Directed Median.png>) |
-| 6 | Reach Centrality | Undirected Median | [graph](<impactful_edges_by_num_sccs/6 = Reach Centrality -\> Undirected Median.png>) |
-| 6 | Reach Centrality | Betweenness Centrality (BC) | [graph](<impactful_edges_by_num_sccs/6 = Reach Centrality -\> Betweenness Centrality (BC).png>) |
-| 6 | Reach Centrality | k-Clique | [graph](<impactful_edges_by_num_sccs/6 = Reach Centrality -\> k-Clique.png>) |
-| 6 | Reach Centrality | Max-Weight k-Clique | [graph](<impactful_edges_by_num_sccs/6 = Reach Centrality -\> Max-Weight k-Clique.png>) |
-| 6 | Diameter | Directed, Weighted APSP | [graph](<impactful_edges_by_num_sccs/6 = Diameter -\> Directed, Weighted APSP.png>) |
-| 6 | Diameter | Negative Triangle Detection | [graph](<impactful_edges_by_num_sccs/6 = Diameter -\> Negative Triangle Detection.png>) |
-| 6 | Diameter | Matrix Product | [graph](<impactful_edges_by_num_sccs/6 = Diameter -\> Matrix Product.png>) |
-| 6 | Diameter | Negative Triangle Search | [graph](<impactful_edges_by_num_sccs/6 = Diameter -\> Negative Triangle Search.png>) |
-| 6 | Diameter | Negative Triangle Listing | [graph](<impactful_edges_by_num_sccs/6 = Diameter -\> Negative Triangle Listing.png>) |
-| 6 | Diameter | Maximum Subarray | [graph](<impactful_edges_by_num_sccs/6 = Diameter -\> Maximum Subarray.png>) |
-| 6 | Diameter | Minimum Witness Finding | [graph](<impactful_edges_by_num_sccs/6 = Diameter -\> Minimum Witness Finding.png>) |
-| 6 | Diameter | All Pairs Minimum Witness (APMW) | [graph](<impactful_edges_by_num_sccs/6 = Diameter -\> All Pairs Minimum Witness (APMW).png>) |
-| 6 | Diameter | Undirected, Weighted APSP | [graph](<impactful_edges_by_num_sccs/6 = Diameter -\> Undirected, Weighted APSP.png>) |
-| 6 | Diameter | Metricity | [graph](<impactful_edges_by_num_sccs/6 = Diameter -\> Metricity.png>) |
-| 6 | Diameter | Directed Radius | [graph](<impactful_edges_by_num_sccs/6 = Diameter -\> Directed Radius.png>) |
-| 6 | Diameter | Undirected Radius | [graph](<impactful_edges_by_num_sccs/6 = Diameter -\> Undirected Radius.png>) |
-| 6 | Diameter | Directed Median | [graph](<impactful_edges_by_num_sccs/6 = Diameter -\> Directed Median.png>) |
-| 6 | Diameter | Undirected Median | [graph](<impactful_edges_by_num_sccs/6 = Diameter -\> Undirected Median.png>) |
-| 6 | Diameter | Betweenness Centrality (BC) | [graph](<impactful_edges_by_num_sccs/6 = Diameter -\> Betweenness Centrality (BC).png>) |
-| 6 | Diameter | k-Clique | [graph](<impactful_edges_by_num_sccs/6 = Diameter -\> k-Clique.png>) |
-| 6 | Diameter | Max-Weight k-Clique | [graph](<impactful_edges_by_num_sccs/6 = Diameter -\> Max-Weight k-Clique.png>) |
-| 6 | Positive Betweenness Centrality | Directed, Weighted APSP | [graph](<impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -\> Directed, Weighted APSP.png>) |
-| 6 | Positive Betweenness Centrality | Negative Triangle Detection | [graph](<impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -\> Negative Triangle Detection.png>) |
-| 6 | Positive Betweenness Centrality | Matrix Product | [graph](<impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -\> Matrix Product.png>) |
-| 6 | Positive Betweenness Centrality | Negative Triangle Search | [graph](<impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -\> Negative Triangle Search.png>) |
-| 6 | Positive Betweenness Centrality | Negative Triangle Listing | [graph](<impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -\> Negative Triangle Listing.png>) |
-| 6 | Positive Betweenness Centrality | Maximum Subarray | [graph](<impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -\> Maximum Subarray.png>) |
-| 6 | Positive Betweenness Centrality | Minimum Witness Finding | [graph](<impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -\> Minimum Witness Finding.png>) |
-| 6 | Positive Betweenness Centrality | All Pairs Minimum Witness (APMW) | [graph](<impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -\> All Pairs Minimum Witness (APMW).png>) |
-| 6 | Positive Betweenness Centrality | Undirected, Weighted APSP | [graph](<impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -\> Undirected, Weighted APSP.png>) |
-| 6 | Positive Betweenness Centrality | Metricity | [graph](<impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -\> Metricity.png>) |
-| 6 | Positive Betweenness Centrality | Directed Radius | [graph](<impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -\> Directed Radius.png>) |
-| 6 | Positive Betweenness Centrality | Undirected Radius | [graph](<impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -\> Undirected Radius.png>) |
-| 6 | Positive Betweenness Centrality | Directed Median | [graph](<impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -\> Directed Median.png>) |
-| 6 | Positive Betweenness Centrality | Undirected Median | [graph](<impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -\> Undirected Median.png>) |
-| 6 | Positive Betweenness Centrality | Betweenness Centrality (BC) | [graph](<impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -\> Betweenness Centrality (BC).png>) |
-| 6 | Positive Betweenness Centrality | k-Clique | [graph](<impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -\> k-Clique.png>) |
-| 6 | Positive Betweenness Centrality | Max-Weight k-Clique | [graph](<impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -\> Max-Weight k-Clique.png>) |
-| 6 | Approximate Betweenness Centrality | Directed, Weighted APSP | [graph](<impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -\> Directed, Weighted APSP.png>) |
-| 6 | Approximate Betweenness Centrality | Negative Triangle Detection | [graph](<impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -\> Negative Triangle Detection.png>) |
-| 6 | Approximate Betweenness Centrality | Matrix Product | [graph](<impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -\> Matrix Product.png>) |
-| 6 | Approximate Betweenness Centrality | Negative Triangle Search | [graph](<impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -\> Negative Triangle Search.png>) |
-| 6 | Approximate Betweenness Centrality | Negative Triangle Listing | [graph](<impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -\> Negative Triangle Listing.png>) |
-| 6 | Approximate Betweenness Centrality | Maximum Subarray | [graph](<impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -\> Maximum Subarray.png>) |
-| 6 | Approximate Betweenness Centrality | Minimum Witness Finding | [graph](<impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -\> Minimum Witness Finding.png>) |
-| 6 | Approximate Betweenness Centrality | All Pairs Minimum Witness (APMW) | [graph](<impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -\> All Pairs Minimum Witness (APMW).png>) |
-| 6 | Approximate Betweenness Centrality | Undirected, Weighted APSP | [graph](<impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -\> Undirected, Weighted APSP.png>) |
-| 6 | Approximate Betweenness Centrality | Metricity | [graph](<impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -\> Metricity.png>) |
-| 6 | Approximate Betweenness Centrality | Directed Radius | [graph](<impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -\> Directed Radius.png>) |
-| 6 | Approximate Betweenness Centrality | Undirected Radius | [graph](<impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -\> Undirected Radius.png>) |
-| 6 | Approximate Betweenness Centrality | Directed Median | [graph](<impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -\> Directed Median.png>) |
-| 6 | Approximate Betweenness Centrality | Undirected Median | [graph](<impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -\> Undirected Median.png>) |
-| 6 | Approximate Betweenness Centrality | Betweenness Centrality (BC) | [graph](<impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -\> Betweenness Centrality (BC).png>) |
-| 6 | Approximate Betweenness Centrality | k-Clique | [graph](<impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -\> k-Clique.png>) |
-| 6 | Approximate Betweenness Centrality | Max-Weight k-Clique | [graph](<impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -\> Max-Weight k-Clique.png>) |
+| 6 | 3 Points on Line | 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = 3 Points on Line -> 3SUM.png">Graph</a> |
+| 6 | 3 Points on Line | 3SUM' | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = 3 Points on Line -> 3SUM'.png">Graph</a> |
+| 6 | 3 Points on Line | GeomBase | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = 3 Points on Line -> GeomBase.png">Graph</a> |
+| 6 | 3 Points on Line | All-Integers 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = 3 Points on Line -> All-Integers 3SUM.png">Graph</a> |
+| 6 | Point on 3 Lines | 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Point on 3 Lines -> 3SUM.png">Graph</a> |
+| 6 | Point on 3 Lines | 3SUM' | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Point on 3 Lines -> 3SUM'.png">Graph</a> |
+| 6 | Point on 3 Lines | GeomBase | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Point on 3 Lines -> GeomBase.png">Graph</a> |
+| 6 | Point on 3 Lines | All-Integers 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Point on 3 Lines -> All-Integers 3SUM.png">Graph</a> |
+| 6 | Triangles Cover Triangle | 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Triangles Cover Triangle -> 3SUM.png">Graph</a> |
+| 6 | Triangles Cover Triangle | 3SUM' | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Triangles Cover Triangle -> 3SUM'.png">Graph</a> |
+| 6 | Triangles Cover Triangle | GeomBase | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Triangles Cover Triangle -> GeomBase.png">Graph</a> |
+| 6 | Triangles Cover Triangle | All-Integers 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Triangles Cover Triangle -> All-Integers 3SUM.png">Graph</a> |
+| 6 | Hole in Union | 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Hole in Union -> 3SUM.png">Graph</a> |
+| 6 | Hole in Union | 3SUM' | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Hole in Union -> 3SUM'.png">Graph</a> |
+| 6 | Hole in Union | GeomBase | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Hole in Union -> GeomBase.png">Graph</a> |
+| 6 | Hole in Union | All-Integers 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Hole in Union -> All-Integers 3SUM.png">Graph</a> |
+| 6 | Triangle Measure | 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Triangle Measure -> 3SUM.png">Graph</a> |
+| 6 | Triangle Measure | 3SUM' | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Triangle Measure -> 3SUM'.png">Graph</a> |
+| 6 | Triangle Measure | GeomBase | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Triangle Measure -> GeomBase.png">Graph</a> |
+| 6 | Triangle Measure | All-Integers 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Triangle Measure -> All-Integers 3SUM.png">Graph</a> |
+| 6 | Visible Triangle | 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Visible Triangle -> 3SUM.png">Graph</a> |
+| 6 | Visible Triangle | 3SUM' | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Visible Triangle -> 3SUM'.png">Graph</a> |
+| 6 | Visible Triangle | GeomBase | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Visible Triangle -> GeomBase.png">Graph</a> |
+| 6 | Visible Triangle | All-Integers 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Visible Triangle -> All-Integers 3SUM.png">Graph</a> |
+| 6 | 3D Motion Planning | 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = 3D Motion Planning -> 3SUM.png">Graph</a> |
+| 6 | 3D Motion Planning | 3SUM' | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = 3D Motion Planning -> 3SUM'.png">Graph</a> |
+| 6 | 3D Motion Planning | GeomBase | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = 3D Motion Planning -> GeomBase.png">Graph</a> |
+| 6 | 3D Motion Planning | All-Integers 3SUM | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = 3D Motion Planning -> All-Integers 3SUM.png">Graph</a> |
+| 6 | Reach Centrality | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Reach Centrality -> Directed, Weighted APSP.png">Graph</a> |
+| 6 | Reach Centrality | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Reach Centrality -> Negative Triangle Detection.png">Graph</a> |
+| 6 | Reach Centrality | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Reach Centrality -> Matrix Product.png">Graph</a> |
+| 6 | Reach Centrality | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Reach Centrality -> Negative Triangle Search.png">Graph</a> |
+| 6 | Reach Centrality | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Reach Centrality -> Negative Triangle Listing.png">Graph</a> |
+| 6 | Reach Centrality | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Reach Centrality -> Maximum Subarray.png">Graph</a> |
+| 6 | Reach Centrality | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Reach Centrality -> Minimum Witness Finding.png">Graph</a> |
+| 6 | Reach Centrality | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Reach Centrality -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 6 | Reach Centrality | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Reach Centrality -> Undirected, Weighted APSP.png">Graph</a> |
+| 6 | Reach Centrality | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Reach Centrality -> Metricity.png">Graph</a> |
+| 6 | Reach Centrality | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Reach Centrality -> Directed Radius.png">Graph</a> |
+| 6 | Reach Centrality | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Reach Centrality -> Undirected Radius.png">Graph</a> |
+| 6 | Reach Centrality | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Reach Centrality -> Directed Median.png">Graph</a> |
+| 6 | Reach Centrality | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Reach Centrality -> Undirected Median.png">Graph</a> |
+| 6 | Reach Centrality | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Reach Centrality -> Betweenness Centrality (BC).png">Graph</a> |
+| 6 | Reach Centrality | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Reach Centrality -> k-Clique.png">Graph</a> |
+| 6 | Reach Centrality | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Reach Centrality -> Max-Weight k-Clique.png">Graph</a> |
+| 6 | Diameter | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Diameter -> Directed, Weighted APSP.png">Graph</a> |
+| 6 | Diameter | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Diameter -> Negative Triangle Detection.png">Graph</a> |
+| 6 | Diameter | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Diameter -> Matrix Product.png">Graph</a> |
+| 6 | Diameter | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Diameter -> Negative Triangle Search.png">Graph</a> |
+| 6 | Diameter | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Diameter -> Negative Triangle Listing.png">Graph</a> |
+| 6 | Diameter | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Diameter -> Maximum Subarray.png">Graph</a> |
+| 6 | Diameter | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Diameter -> Minimum Witness Finding.png">Graph</a> |
+| 6 | Diameter | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Diameter -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 6 | Diameter | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Diameter -> Undirected, Weighted APSP.png">Graph</a> |
+| 6 | Diameter | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Diameter -> Metricity.png">Graph</a> |
+| 6 | Diameter | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Diameter -> Directed Radius.png">Graph</a> |
+| 6 | Diameter | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Diameter -> Undirected Radius.png">Graph</a> |
+| 6 | Diameter | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Diameter -> Directed Median.png">Graph</a> |
+| 6 | Diameter | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Diameter -> Undirected Median.png">Graph</a> |
+| 6 | Diameter | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Diameter -> Betweenness Centrality (BC).png">Graph</a> |
+| 6 | Diameter | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Diameter -> k-Clique.png">Graph</a> |
+| 6 | Diameter | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Diameter -> Max-Weight k-Clique.png">Graph</a> |
+| 6 | Positive Betweenness Centrality | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -> Directed, Weighted APSP.png">Graph</a> |
+| 6 | Positive Betweenness Centrality | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -> Negative Triangle Detection.png">Graph</a> |
+| 6 | Positive Betweenness Centrality | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -> Matrix Product.png">Graph</a> |
+| 6 | Positive Betweenness Centrality | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -> Negative Triangle Search.png">Graph</a> |
+| 6 | Positive Betweenness Centrality | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -> Negative Triangle Listing.png">Graph</a> |
+| 6 | Positive Betweenness Centrality | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -> Maximum Subarray.png">Graph</a> |
+| 6 | Positive Betweenness Centrality | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -> Minimum Witness Finding.png">Graph</a> |
+| 6 | Positive Betweenness Centrality | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 6 | Positive Betweenness Centrality | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -> Undirected, Weighted APSP.png">Graph</a> |
+| 6 | Positive Betweenness Centrality | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -> Metricity.png">Graph</a> |
+| 6 | Positive Betweenness Centrality | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -> Directed Radius.png">Graph</a> |
+| 6 | Positive Betweenness Centrality | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -> Undirected Radius.png">Graph</a> |
+| 6 | Positive Betweenness Centrality | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -> Directed Median.png">Graph</a> |
+| 6 | Positive Betweenness Centrality | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -> Undirected Median.png">Graph</a> |
+| 6 | Positive Betweenness Centrality | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -> Betweenness Centrality (BC).png">Graph</a> |
+| 6 | Positive Betweenness Centrality | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -> k-Clique.png">Graph</a> |
+| 6 | Positive Betweenness Centrality | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Positive Betweenness Centrality -> Max-Weight k-Clique.png">Graph</a> |
+| 6 | Approximate Betweenness Centrality | Directed, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -> Directed, Weighted APSP.png">Graph</a> |
+| 6 | Approximate Betweenness Centrality | Negative Triangle Detection | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -> Negative Triangle Detection.png">Graph</a> |
+| 6 | Approximate Betweenness Centrality | Matrix Product | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -> Matrix Product.png">Graph</a> |
+| 6 | Approximate Betweenness Centrality | Negative Triangle Search | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -> Negative Triangle Search.png">Graph</a> |
+| 6 | Approximate Betweenness Centrality | Negative Triangle Listing | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -> Negative Triangle Listing.png">Graph</a> |
+| 6 | Approximate Betweenness Centrality | Maximum Subarray | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -> Maximum Subarray.png">Graph</a> |
+| 6 | Approximate Betweenness Centrality | Minimum Witness Finding | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -> Minimum Witness Finding.png">Graph</a> |
+| 6 | Approximate Betweenness Centrality | All Pairs Minimum Witness (APMW) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -> All Pairs Minimum Witness (APMW).png">Graph</a> |
+| 6 | Approximate Betweenness Centrality | Undirected, Weighted APSP | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -> Undirected, Weighted APSP.png">Graph</a> |
+| 6 | Approximate Betweenness Centrality | Metricity | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -> Metricity.png">Graph</a> |
+| 6 | Approximate Betweenness Centrality | Directed Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -> Directed Radius.png">Graph</a> |
+| 6 | Approximate Betweenness Centrality | Undirected Radius | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -> Undirected Radius.png">Graph</a> |
+| 6 | Approximate Betweenness Centrality | Directed Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -> Directed Median.png">Graph</a> |
+| 6 | Approximate Betweenness Centrality | Undirected Median | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -> Undirected Median.png">Graph</a> |
+| 6 | Approximate Betweenness Centrality | Betweenness Centrality (BC) | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -> Betweenness Centrality (BC).png">Graph</a> |
+| 6 | Approximate Betweenness Centrality | k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -> k-Clique.png">Graph</a> |
+| 6 | Approximate Betweenness Centrality | Max-Weight k-Clique | <a href="https://github.com/andrewlucasgs/algorithms-reductions/blob/main/impactful_edges_by_num_sccs/6 = Approximate Betweenness Centrality -> Max-Weight k-Clique.png">Graph</a> |
