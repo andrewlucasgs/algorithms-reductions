@@ -45,7 +45,7 @@
 
 | Size of the Largest SCC | From | To | Graph |
 | --- | --- | --- | --- |
-| 12 | Reach Centrality | k-Clique | [graph](<impactful_edges_by_size/12 = Reach Centrality -\> k-Clique.png>) |
+| 12 | Reach Centrality | k-Clique | [graph](<./impactful_edges_by_size/12 = Reach Centrality -\> k-Clique.png>) |
 | 12 | Diameter | k-Clique | [graph](<impactful_edges_by_size/12 = Diameter -\> k-Clique.png>) |
 | 12 | Positive Betweenness Centrality | k-Clique | [graph](<impactful_edges_by_size/12 = Positive Betweenness Centrality -\> k-Clique.png>) |
 | 12 | Approximate Betweenness Centrality | k-Clique | [graph](<impactful_edges_by_size/12 = Approximate Betweenness Centrality -\> k-Clique.png>) |
