@@ -1,6 +1,6 @@
 # Fine-grained analysis
 
-### Source nodes in the SCC DAG
+## Source nodes in the SCC DAG
     - (OV, Partial Match)
     - (All-Integers 3SUM, 3SUM, 3SUM', GeomBase)
     - (Combinatorial BMM, CFG Parsing, Combinatorial Triangle Detection)
@@ -26,34 +26,20 @@
     - k-SAT
     - Maximum Inner Product Search
 
-### Longest shortest paths in the SCC DAG
-
+## Longest shortest paths in the SCC DAG
 ![](scc_dag_longest_path_only.png)
 
-Full view:
-
-![](scc_dag_longest_path.png)
-
-### Larger impact new edge
-
-Currently we have 118 SCCs in the SCC DAG. 
-Adding edge ('Second Shortest Simple Path' -> 'k-Clique') reduces the number of SCCs by 4. 
-Resulting in 114 SCCs.
-
-#### Current set of SCCs with more than 1 node
-
-![](larger_sccs_combined.png)
+## Highest impact edges
+To see the full list:
+- [highest impact edge by largest SCC](/impactful_edges_by_size): the filename start with the number of nodes in the largest SCC after adding the new edge
+- [highest impact edge number of SCCs](/impactful_edges_by_num_sccs): the filename start with the number of SCCs after adding the new edge
 
 
-#### Adding edge ('Second Shortest Simple Path', 'k-Clique')
+### By largest SCC (Largest SCC: 12 | # of SCCs: 6)
+![alt text](<impactful_edges_by_size/12 = Reach Centrality -\> k-Clique.png>)
 
-![](larger_sccs_combined_with_new_edge.png)
+### By number of SCC (Largest SCC: 6 | # of SCCs: 6)
+![alt text](<impactful_edges_by_num_sccs/6 = 3 Points on Line -\> 3SUM.png>)
 
-
-## Full version of original Graph 
-
-![](original_graph.png)
-
-## Full version of modified graph
-
-![](modified_graph.png)
+### SCCs from the original graph
+![alt text](original_sccs.png)
