@@ -41,7 +41,7 @@
 
 
 
-### Table of all new edges impact by the size of the Largest SCC
+### Table of all new edges impact by the size of the Largest SCC 
 
 | Size of the Largest SCC | From | To | Graph |
 | --- | --- | --- | --- |
